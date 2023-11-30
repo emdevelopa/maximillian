@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <div className="bgImage">
           <nav className="text-white fixed w-full">
-            <ul className="flex justify-around py-10 items-center">
+            <ul className="flex justify-around py-4 items-center">
               {/* <li>
                 <a>ABOUT</a>
               </li>
