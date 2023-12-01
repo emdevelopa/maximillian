@@ -22,7 +22,7 @@ class App extends Component {
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
               <li>
-                <a>JOURNAL</a>
+                <a>JOURNALs</a>
               </li>
               <li>
                 <a>SEARCH</a>
