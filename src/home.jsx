@@ -35,21 +35,21 @@ export default function Home(props) {
 
               <ul
                 className={
-                  "absolute bg-[#0000009e] w-[5em] p-2 rounded " +
+                  "absolute bg-[#0000009e] p-2 rounded " +
                   (onHover ? "block" : "hidden")
                 }
               >
                 <li>
-                  <FontAwesomeIcon icon={faCat} />
+                  <FontAwesomeIcon icon={faCat} /> Pets
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faMobile} />
+                  <FontAwesomeIcon icon={faMobile}/> Gadgets
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faStore} />
+                  <FontAwesomeIcon icon={faStore} /> Wears
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faBook} />
+                  <FontAwesomeIcon icon={faBook} /> Books
                 </li>
                 <li></li>
               </ul>
