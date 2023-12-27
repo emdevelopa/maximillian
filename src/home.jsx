@@ -102,11 +102,11 @@ export default function Home(props) {
           <h1 className="text-[36px]">Explore</h1>
           <p className="text-center w-1/2">
             Maximillian Solutions Limited is a pioneering force at the
-            intersection of innovation and impact, strategically navigating the
-            Seven Mountains of Influence. From cutting-edge technology solutions
-            to transformative social initiatives, we ascend each peak with
-            precision, shaping the future across business, government,
-            education, media, arts and entertainment, family, and religion.
+            intersection of innovation and impact, strategically metamorphism
+            the Seven Mountains of Influence. From cutting-edge technology
+            solutions to transformative social initiatives, we ascend each peak
+            with precision, shaping the future across business, government,
+            education, media, arts & entertainment, family, and religion.
             Explore our dynamic ecosystem where we leverage expertise to drive
             positive change, creating a lasting imprint on the landscape of
             influence."
