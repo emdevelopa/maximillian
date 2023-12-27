@@ -25,7 +25,7 @@ class App extends Component {
                 <a>About</a>
               </li>
               <li>
-                <a></a>
+                <a>cars</a>
               </li>
             </ul>
           </nav>
