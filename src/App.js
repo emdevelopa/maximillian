@@ -12,10 +12,12 @@ class App extends Component {
           <nav className="text-white fixed w-full">
             <ul className="flex justify-around py-4 items-center">
               <li>
-                <a>ABOUT</a>
+                <a href="#" className="hover:text-orange-400">
+                  ABOUT
+                </a>
               </li>
               <li>
-                <a>
+                <a href="#" className="hover:text-orange-400">
                   STORES <FontAwesomeIcon icon="caret-down" />
                 </a>
                 <div className="absolute bg-[#0000009e] w-[6em] p-2 rounded">
@@ -33,10 +35,14 @@ class App extends Component {
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
               <li>
-                <a>CARS</a>
+                <a href="#" className="hover:text-orange-400">
+                  CARS
+                </a>
               </li>
               <li>
-                <a>A&E</a>
+                <a href="#" className="hover:text-orange-400">
+                  A&E
+                </a>
               </li>
             </ul>
           </nav>
