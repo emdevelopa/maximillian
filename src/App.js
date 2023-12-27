@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import logo from './logo.svg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./App.css";
 
 import logo from "./logo.png";
@@ -15,7 +15,9 @@ class App extends Component {
                 <a>About</a>
               </li>
               <li>
-                <a>Stores</a>
+                <a>
+                  Stores <FontAwesomeIcon icon="caret-down" />
+                </a>
                 <div className="absolute bg-[#0000009e] w-[6em] p-2 rounded">
                   <ul>
                     <li>Pet</li>
