@@ -40,26 +40,37 @@ export default function Home(props) {
                 STORES <FontAwesomeIcon icon={faCaretDown} />
               </a>
 
-              <ul
+              <div
                 className={
-                  "absolute bg-[#0000009e] p-2 rounded " +
+                  "absolute bg-[#0000009e] p-2 flex gap-2 rounded " +
                   (onHover ? "block" : "hidden")
                 }
               >
-                <li>
-                  <FontAwesomeIcon icon={faCat} /> Pets
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faMobile} /> Gadgets
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faStore} /> Wears
-                </li>
-                <li>
-                  <FontAwesomeIcon icon={faBook} /> Books
-                </li>
-                <li></li>
-              </ul>
+                <div className="flex flex-col gap-4">
+                  <FontAwesomeIcon icon={faCat} />
+                  <FontAwesomeIcon icon={faMobile} />
+                  <FontAwesomeIcon icon={faStore} />
+                  <FontAwesomeIcon icon={faBook} />
+                </div>
+                <ul className="flex flex-col gap-1.5">
+                  <li>
+                    <div>
+                      <p>Pets</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <p>Gadgets</p>
+                    </div>
+                  </li>
+                  <li className="flex gap-2">
+                    <span>Wears</span>
+                  </li>
+                  <li className="flex gap-2">
+                    <span>Books</span>
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
               <img src={props.logo} alt="swsw" className="w-[9em]" />
