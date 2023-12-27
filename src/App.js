@@ -12,11 +12,11 @@ class App extends Component {
           <nav className="text-white fixed w-full">
             <ul className="flex justify-around py-4 items-center">
               <li>
-                <a>About</a>
+                <a>ABOUT</a>
               </li>
               <li>
                 <a>
-                  Stores <FontAwesomeIcon icon="caret-down" />
+                  STORES <FontAwesomeIcon icon="caret-down" />
                 </a>
                 <div className="absolute bg-[#0000009e] w-[6em] p-2 rounded">
                   <ul>
@@ -33,10 +33,10 @@ class App extends Component {
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
               <li>
-                <a>Cars</a>
+                <a>CARS</a>
               </li>
               <li>
-                <a>E&A</a>
+                <a>A&E</a>
               </li>
             </ul>
           </nav>
