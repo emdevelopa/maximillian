@@ -20,10 +20,10 @@ class App extends Component {
                 </a>
                 <div className="absolute bg-[#0000009e] w-[6em] p-2 rounded">
                   <ul>
-                    <li>Pet</li>
-                    <li>Gadget</li>
-                    <li>Wears</li>
-                    <li>Books</li>
+                    <li>PET</li>
+                    <li>GADGET</li>
+                    <li>WEARS</li>
+                    <li>BOOKS</li>
                     <li></li>
                   </ul>
                 </div>
