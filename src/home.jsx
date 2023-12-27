@@ -35,7 +35,7 @@ export default function Home(props) {
 
               <ul
                 className={
-                  "absolute bg-[#0000009e] w-[6em] p-2 rounded " +
+                  "absolute bg-[#0000009e] w-[5em] p-2 rounded " +
                   (onHover ? "block" : "hidden")
                 }
               >
