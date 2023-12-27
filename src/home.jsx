@@ -3,10 +3,7 @@ import { useState } from "react";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
-  const showDropdown = () => {
-    setOnHover(!onHover);
-  };
-  const hideDropdown = () => {
+  const handleDropdown = () => {
     setOnHover(!onHover);
   };
   return (
@@ -23,8 +20,7 @@ export default function Home(props) {
               <a
                 href="#"
                 className="hover:text-orange-400"
-                onMouseOver={showDropdown}
-                onMouseLeave={hideDropdown}
+                onMouseOver={handleDropdown}
               >
                 STORES <FontAwesomeIcon icon="caret-down" />
               </a>
