@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faBook,
+  faBook,
   faCaretDown,
   faCat,
-
   faMobile,
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
@@ -11,8 +10,16 @@ import { useState } from "react";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
+  const [showToolTips, setShowToolTips] = useState(false);
   const handleDropdown = () => {
     setOnHover(!onHover);
+  };
+
+  const handleShowToolTips = () => {
+    setShowToolTips(true);
+  };
+  const handleHideToolTips = () => {
+    setShowToolTips(false);
   };
   return (
     <>
@@ -43,7 +50,7 @@ export default function Home(props) {
                   <FontAwesomeIcon icon={faCat} /> Pets
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={faMobile}/> Gadgets
+                  <FontAwesomeIcon icon={faMobile} /> Gadgets
                 </li>
                 <li>
                   <FontAwesomeIcon icon={faStore} /> Wears
@@ -64,8 +71,21 @@ export default function Home(props) {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-400">
+              <a
+                href="#"
+                className="hover:text-orange-400 relative"
+                onMouseOver={handleShowToolTips}
+                onMouseLeave={handleHideToolTips}
+              >
                 A&E
+                <span
+                  className={
+                    "absolute left-0  top-5 bg-white text-black text-[12px] p-1 rounded-sm " +
+                    (showToolTips ? "block" : "hidden")
+                  }
+                >
+                  Art & Entertainment
+                </span>
               </a>
             </li>
           </ul>
