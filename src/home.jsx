@@ -62,7 +62,7 @@ export default function Home(props) {
               </ul>
             </li>
             <li>
-              <img src={props.logo} alt="swsw" className="w-[4em]" />
+              <img src={props.logo} alt="swsw" className="w-[5em]" />
               {/* <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div> */}
             </li>
             <li>
