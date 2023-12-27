@@ -92,8 +92,8 @@ export default function Home(props) {
         </nav>
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
-            <h1 className="text-[65px] font-bold">The Great Outdoors</h1>
-            <p>Wander often, Wonder always</p>
+            <h1 className="text-[65px] font-bold">The Frontier Community</h1>
+            <p>Digital Hub</p>
           </div>
         </div>
       </div>
