@@ -12,20 +12,29 @@ class App extends Component {
           <nav className="text-white fixed w-full">
             <ul className="flex justify-around py-4 items-center">
               <li>
-                <a>Home</a>
+                <a>About</a>
               </li>
               <li>
-                <a>Store</a>
+                <a>Stores</a>
+                <div className="absolute bg-[#0000009e] w-[6em] p-2 rounded">
+                  <ul>
+                    <li>Pet</li>
+                    <li>Gadget</li>
+                    <li>Wears</li>
+                    <li>Books</li>
+                    <li></li>
+                  </ul>
+                </div>
               </li>
               <li>
                 {/* <img src={logo} alt='swsw' className='w-[4em]'/> */}
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
               <li>
-                <a>About</a>
+                <a>Cars</a>
               </li>
               <li>
-                <a>cars</a>
+                <a>E&A</a>
               </li>
             </ul>
           </nav>
@@ -86,7 +95,7 @@ class App extends Component {
           </p>
         </div>
         <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-              <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
+          <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
         </footer>
       </div>
     );
