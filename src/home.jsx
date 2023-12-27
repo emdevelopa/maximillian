@@ -46,30 +46,24 @@ export default function Home(props) {
                   (onHover ? "block" : "hidden")
                 }
               >
-                <div className="flex flex-col gap-4">
-                  <FontAwesomeIcon icon={faCat} />
-                  <FontAwesomeIcon icon={faMobile} />
-                  <FontAwesomeIcon icon={faStore} />
-                  <FontAwesomeIcon icon={faBook} />
+                <div className="flex flex-col gap-4 items-start text-[13px]">
+                  <p className="flex items-center">
+                    {/* <FontAwesomeIcon icon={faCat} /> */}
+                    pet
+                  </p>
+                  <p className="flex items-center">
+                    {/* <FontAwesomeIcon icon={faMobile} /> */}
+                    Mobile
+                  </p>
+                  <p className="flex items-center">
+                    {/* <FontAwesomeIcon icon={faStore} /> */}
+                    Store
+                  </p>
+                  <p className="flex items-center">
+                    {/* <FontAwesomeIcon icon={faBook} /> */}
+                    Book
+                  </p>
                 </div>
-                <ul className="flex flex-col gap-1.5">
-                  <li>
-                    <div>
-                      <p>Pets</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p>Gadgets</p>
-                    </div>
-                  </li>
-                  <li className="flex gap-2">
-                    <span>Wears</span>
-                  </li>
-                  <li className="flex gap-2">
-                    <span>Books</span>
-                  </li>
-                </ul>
               </div>
             </li>
             <li>
