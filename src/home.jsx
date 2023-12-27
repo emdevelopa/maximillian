@@ -27,7 +27,10 @@ export default function Home(props) {
         <nav className="text-white fixed w-full">
           <ul className="flex justify-around py-4 items-center">
             <li>
-              <a href="#" className="hover:text-orange-400">
+              <a
+                href="#"
+                className="hover:text-orange-400"
+              >
                 ABOUT
               </a>
             </li>
