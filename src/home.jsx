@@ -1,4 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCaretDown,
+  faCat,
+
+  faMobile,
+} from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function Home(props) {
@@ -22,7 +28,7 @@ export default function Home(props) {
                 className="hover:text-orange-400"
                 onMouseOver={handleDropdown}
               >
-                STORES <FontAwesomeIcon icon="caret-down" />
+                STORES <FontAwesomeIcon icon={faCaretDown} />
               </a>
 
               <ul
@@ -31,9 +37,15 @@ export default function Home(props) {
                   (onHover ? "block" : "hidden")
                 }
               >
-                <li>PET</li>
-                <li>GADGET</li>
-                <li>WEARS</li>
+                <li>
+                  <FontAwesomeIcon icon={faCat} />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={faMobile} />
+                </li>
+                <li>
+                  <FontAwesomeIcon icon={fa} />
+                </li>
                 <li>BOOKS</li>
                 <li></li>
               </ul>
