@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+    faBook,
   faCaretDown,
   faCat,
 
   faMobile,
+  faStore,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
@@ -44,9 +46,11 @@ export default function Home(props) {
                   <FontAwesomeIcon icon={faMobile} />
                 </li>
                 <li>
-                  <FontAwesomeIcon icon={fa} />
+                  <FontAwesomeIcon icon={faStore} />
                 </li>
-                <li>BOOKS</li>
+                <li>
+                  <FontAwesomeIcon icon={faBook} />
+                </li>
                 <li></li>
               </ul>
             </li>
