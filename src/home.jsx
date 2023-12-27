@@ -99,12 +99,17 @@ export default function Home(props) {
       </div>
       <div className="bg-black text-white pt-[6em]">
         <div className="flex items-center flex-col gap-4 mb-12">
-          <h1 className="text-[36px]">Explore the World</h1>
+          <h1 className="text-[36px]">Explore</h1>
           <p className="text-center w-1/2">
-            We seek to provide the most authentic content from athletes,
-            adventures, explorers and travellers around the world. Our long-term
-            mission is to educate inspire and enable all peoples to experience &
-            protect wilderness.
+            Maximillian Solutions Limited is a pioneering force at the
+            intersection of innovation and impact, strategically navigating the
+            Seven Mountains of Influence. From cutting-edge technology solutions
+            to transformative social initiatives, we ascend each peak with
+            precision, shaping the future across business, government,
+            education, media, arts and entertainment, family, and religion.
+            Explore our dynamic ecosystem where we leverage expertise to drive
+            positive change, creating a lasting imprint on the landscape of
+            influence."
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12">
