@@ -93,7 +93,7 @@ export default function Home(props) {
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
             <h1 className="text-[65px] font-bold">The Frontier Community</h1>
-            <p>Digital Hub</p>
+            <p>Digital Resolutions, Digital Hub</p>
           </div>
         </div>
       </div>
