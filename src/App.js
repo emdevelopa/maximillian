@@ -12,20 +12,20 @@ class App extends Component {
           <nav className="text-white fixed w-full">
             <ul className="flex justify-around py-4 items-center">
               <li>
-                <a>ABOUT</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>EXPLORE</a>
+                <a>Store</a>
               </li>
               <li>
                 {/* <img src={logo} alt='swsw' className='w-[4em]'/> */}
                 <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div>
               </li>
               <li>
-                <a>JOURNAL</a>
+                <a>About</a>
               </li>
               <li>
-                <a>SEARCH</a>
+                <a></a>
               </li>
             </ul>
           </nav>
