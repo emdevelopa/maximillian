@@ -27,10 +27,7 @@ export default function Home(props) {
         <nav className="text-white fixed w-full">
           <ul className="flex justify-around py-4 items-center">
             <li>
-              <a
-                href="#"
-                className="hover:text-orange-400"
-              >
+              <a href="#" className="hover:text-orange-400">
                 ABOUT
               </a>
             </li>
@@ -135,10 +132,10 @@ export default function Home(props) {
       </div>
       <div className="bg-black text-white pt-[6em]">
         <div className="flex items-center flex-col gap-4 mb-12">
-          <h1 className="text-[36px]">The Journal</h1>
+          <h1 className="text-[36px]">Our Journal</h1>
           <p className="text-center w-1/2">
-            Our favorite stories about public lands and opportunities for you to
-            get involved in protecting your outdoor experience
+            Our favorite stories about self development and opportunities for
+            you to get involved in protecting your experience.
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12">
