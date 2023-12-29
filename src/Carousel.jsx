@@ -41,7 +41,7 @@ const Carousel = ({ images }) => {
       {/* <br /> */}
       <div className="text-center">
         <p className="text-center ">DECEMBER 16, 2023</p>
-        <h1 className="font-bold my-4 text-[24px]">
+        <h1 className=" my-4 text-[24px]">
           If you really want to change your life follow @maximilliansolutions
         </h1>
         {/* <p className="text-center my-4 ">
