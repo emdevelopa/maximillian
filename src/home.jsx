@@ -149,7 +149,7 @@ export default function Home(props) {
             style={{ backgroundImage: `url(${props.imageThree})` }}
           ></div>
         </div>
-        <p className="text-center text-[14px] text-blue-600">SEE MORE &gt;</p>
+        {/* <p className="text-center text-[14px] text-blue-600">SEE MORE &gt;</p> */}
       </div>
       <div className="bg-black text-white pt-[6em]">
         <div className="flex items-center flex-col gap-4 mb-12">
