@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
+import "../src/css/App.css";
 import logo from "./logo.png";
-import Home from "./home";
+import Home from "./components/home";
 import image0 from "../src/images/Maximillian0.png";
 import image1 from "../src/images/Maximillian1.png";
 import image2 from "../src/images/Maximillian2.png";

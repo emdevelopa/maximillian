@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from "./Carousel";
 import {
   faAngleDown,
-  faArrowDown,
   faBook,
-  faCaretDown,
   faCat,
   faMobile,
   faStore,
