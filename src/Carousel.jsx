@@ -40,14 +40,14 @@ const Carousel = ({ images }) => {
       {/* <br /> */}
       {/* <br /> */}
       <div className="text-center">
-        <p className="text-center ">
-          DECEMBER 16, 2023
-        </p>
-        <h1 className="font-bold text-[24px]">If you really want to change your life follow @maximilliansolutions</h1>
-        <p className="text-center my-4 ">
+        <p className="text-center ">DECEMBER 16, 2023</p>
+        <h1 className="font-bold my-4 text-[24px]">
+          If you really want to change your life follow @maximilliansolutions
+        </h1>
+        {/* <p className="text-center my-4 ">
           If you have one day to visit Yosemite National Park <br /> and you
           want to make the most out of it.
-        </p>
+        </p> */}
       </div>
     </div>
   );
