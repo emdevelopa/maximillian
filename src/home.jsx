@@ -179,8 +179,19 @@ export default function Home(props) {
               want to make the most out of it.
             </p>
           </div> */}
+          <div className="flex flex-col items-center gap-4">
+            <div className="w-[30em] h-[20em] bg-blue-500"></div>
+            <p>MAY 30, 2017</p>
+            <h1 className="font-bold text-[24px]">An Unforgettable</h1>
+            <p className="text-center mt-4 ">
+              If you have one day to visit Yosemite National Park <br /> and you
+              want to make the most out of it.
+            </p>
+          </div>
         </div>
-        <h1 className="font-bold text-center text-[24px]">If you really want to change your life follow @maximilliansolutions.</h1>
+        <h1 className="font-bold text-center text-[24px]">
+          If you really want to change your life follow @maximilliansolutions.
+        </h1>
         {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
       </div>
       <footer className="bgImage h-[20em] flex items-end text-white justify-center">
