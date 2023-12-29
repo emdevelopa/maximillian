@@ -20,7 +20,11 @@ const Carousel = ({ images }) => {
         {images.map((image, index) => (
           <div key={index}>
             {index === images.length - 1 ? ( // Check if it's the last image
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.instagram.com/maximillian_solutions?igsh=NGU3bmMwNXdndDM1&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img
                   src={image}
                   alt={`slide-${index}`}
@@ -42,8 +46,13 @@ const Carousel = ({ images }) => {
       <div className="text-center">
         <p className="text-center ">DECEMBER 16, 2023</p>
         <h1 className=" my-4 text-[24px]">
-          If you really want to change your life follow
-          <a href="#">@maximilliansolutions</a>
+          If you really want to change your life follow &nbsp;
+          <a
+            href="https://www.instagram.com/maximillian_solutions?igsh=NGU3bmMwNXdndDM1&utm_source=qr"
+            className="underline text-blue-600"
+          >
+            @maximilliansolutions
+          </a>
         </h1>
         {/* <p className="text-center my-4 ">
           If you have one day to visit Yosemite National Park <br /> and you

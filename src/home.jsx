@@ -40,8 +40,8 @@ export default function Home(props) {
   return (
     <>
       <div className="bgImage">
-        <nav className="text-white fixed w-full flex justify-around">
-          <img src={props.logo} alt="logo" className="w-[9em]" />
+        <nav className="text-white fixed w-full flex justify-around z-30">
+          <img src={props.logo} alt="logo" className="w-[9em] " />
 
           <ul className="flex justify-around items-center w-[40%] max-md-957:bg-red-700 max-md-[600px]:hidden">
             <li>

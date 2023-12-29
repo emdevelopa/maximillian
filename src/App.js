@@ -13,7 +13,6 @@ import image7 from "../src/images/Maximillian7.png";
 import image8 from "../src/images/Maximillian8.png";
 import image9 from "../src/images/Maximillian9.png";
 
-
 class App extends Component {
   render() {
     return (
