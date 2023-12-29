@@ -200,27 +200,6 @@ export default function Home(props) {
       </div>
       <footer className="bgImage h-[20em] flex items-end text-white justify-center">
         <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
-      </footer>{" "}
-      <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-        <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
       </footer>
     </>
   );
