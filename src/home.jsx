@@ -160,13 +160,10 @@ export default function Home(props) {
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12 max-md-[600px]:flex-col">
-          <div className="flex flex-col items-center gap-4">
+          {/* <div className="flex flex-col items-center gap-4"> */}
             <Carousel images={images} />
-            <h1 className="font-bold text-center text-[24px]">
-              If you really want to change your life follow
-              @maximilliansolutions.
-            </h1>
-          </div>
+           
+          {/* </div> */}
           {/* <div className="flex flex-col items-center gap-4">
             <div className="w-[30em] h-[20em] bg-blue-500"></div>
             <p>MAY 30, 2017</p>
