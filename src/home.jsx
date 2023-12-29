@@ -95,7 +95,7 @@ export default function Home(props) {
               </a>
             </li>
           </ul>
-          <div className="absolute top-[40%] right-5">
+          <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
             <p>menu</p>
           </div>
         </nav>
