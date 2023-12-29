@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Carousel from "./Carousel";
 import {
   faAngleDown,
   faArrowDown,
@@ -23,6 +24,12 @@ export default function Home(props) {
   const handleHideToolTips = () => {
     setShowToolTips(false);
   };
+
+   const images = [
+     props.imageOne,
+     props.imageTwo,
+     props.imageThree
+   ];
   return (
     <>
       <div className="bgImage">
@@ -149,7 +156,8 @@ export default function Home(props) {
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12 max-md-[600px]:flex-col">
-          <div className="flex flex-col items-center gap-4">
+          <Carousel images={images} />
+          {/* <div className="flex flex-col items-center gap-4">
             <div className="w-[30em] h-[20em] bg-blue-500"></div>
             <p>MAY 30, 2017</p>
             <h1 className="font-bold text-[24px]">An Unforgettable</h1>
@@ -166,9 +174,10 @@ export default function Home(props) {
               If you have one day to visit Yosemite National Park <br /> and you
               want to make the most out of it.
             </p>
-          </div>
+          </div> */}
         </div>
-        <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p>
+        <h1 className="font-bold text-center text-[24px]">If you really want to change your life follow @maximilliansolutions.</h1>
+        {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
       </div>
       <footer className="bgImage h-[20em] flex items-end text-white justify-center">
         <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
