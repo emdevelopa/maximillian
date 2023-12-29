@@ -42,7 +42,8 @@ const Carousel = ({ images }) => {
       <div className="text-center">
         <p className="text-center ">DECEMBER 16, 2023</p>
         <h1 className=" my-4 text-[24px]">
-          If you really want to change your life follow @maximilliansolutions
+          If you really want to change your life follow
+          <a href="#">@maximilliansolutions</a>
         </h1>
         {/* <p className="text-center my-4 ">
           If you have one day to visit Yosemite National Park <br /> and you
