@@ -24,8 +24,10 @@ export default function Home(props) {
   return (
     <>
       <div className="bgImage">
-        <nav className="text-white fixed w-full">
-          <ul className="flex justify-around py-4 items-center">
+        <nav className="text-white fixed w-full flex justify-around">
+          <img src={props.logo} alt="swsw" className="w-[9em]" />
+
+          <ul className="flex justify-around items-center w-[40%] max-md-957:bg-red-700 max-md-[600px]:hidden">
             <li>
               <a href="#" className="hover:text-orange-400">
                 ABOUT
@@ -67,7 +69,6 @@ export default function Home(props) {
               </div>
             </li>
             <li>
-              <img src={props.logo} alt="swsw" className="w-[9em]" />
               {/* <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div> */}
             </li>
             <li>
@@ -94,10 +95,13 @@ export default function Home(props) {
               </a>
             </li>
           </ul>
+          <div className="absolute top-[40%] right-5">
+            <p>menu</p>
+          </div>
         </nav>
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
-            <h1 className="text-[65px] font-bold">The Frontier Community</h1>
+            <h1 className="text-[65px] font-bold text-center">The Frontier Community</h1>
             <p>Digital Resolutions, Digital Hub</p>
           </div>
         </div>
@@ -132,7 +136,7 @@ export default function Home(props) {
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex justify-between mb-12">
+        <div className="px-[8em] flex justify-between mb-12 max-md-[600px]:flex-col">
           <div className="flex flex-col items-center gap-4">
             <div className="w-[30em] h-[20em] bg-blue-500"></div>
             <p>MAY 30, 2017</p>
