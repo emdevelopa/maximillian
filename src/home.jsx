@@ -134,7 +134,7 @@ export default function Home(props) {
             education, media, arts & entertainment, family, and religion.
             Explore our dynamic ecosystem where we leverage expertise to drive
             positive change, creating a lasting imprint on the landscape of
-            influence."
+            influence.
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12">
