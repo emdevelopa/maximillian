@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAngleDown,
@@ -8,7 +9,6 @@ import {
   faMobile,
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
@@ -36,7 +36,10 @@ export default function Home(props) {
               </a>
             </li>
             <li>
-              <p className="hover:text-orange-400 cursor-pointer" onClick={handleDropdown}>
+              <p
+                className="hover:text-orange-400 cursor-pointer"
+                onClick={handleDropdown}
+              >
                 STORES <FontAwesomeIcon icon={faAngleDown} />
               </p>
 
@@ -122,9 +125,18 @@ export default function Home(props) {
           </p>
         </div>
         <div className="px-[8em] flex justify-between mb-12">
-          <div className="w-[20em] h-[25em] bg-blue-500"></div>
-          <div className="w-[20em] h-[25em] bg-[orange]"></div>
-          <div className="w-[20em] h-[25em] bg-blue-500"></div>
+          <div
+            className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
+            style={{ backgroundImage: `url(${props.imageOne})` }}
+          ></div>
+          <div
+            className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
+            style={{ backgroundImage: `url(${props.imageTwo})` }}
+          ></div>
+          <div
+            className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
+            style={{ backgroundImage: `url(${props.imageThree})` }}
+          ></div>
         </div>
         <p className="text-center text-[14px] text-blue-600">SEE MORE &gt;</p>
       </div>
