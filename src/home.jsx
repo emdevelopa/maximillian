@@ -25,11 +25,17 @@ export default function Home(props) {
     setShowToolTips(false);
   };
 
-   const images = [
-     props.imageOne,
-     props.imageTwo,
-     props.imageThree
-   ];
+  const images = [
+    props.imageZero,
+    props.imageOne,
+    props.imageTwo,
+    props.imageThree,
+    props.imageFour,
+    props.imageFive,
+    props.imageSix,
+    props.imageSeven,
+    props.imageEight,
+  ];
   return (
     <>
       <div className="bgImage">
