@@ -1,5 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faAngleDown,
+  faArrowDown,
   faBook,
   faCaretDown,
   faCat,
@@ -37,9 +39,9 @@ export default function Home(props) {
               <a
                 href="#"
                 className="hover:text-orange-400"
-                onMouseOver={handleDropdown}
+                onClick={handleDropdown}
               >
-                STORES <FontAwesomeIcon icon={faCaretDown} />
+                STORES <FontAwesomeIcon icon={faAngleDown} />
               </a>
 
               <div
