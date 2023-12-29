@@ -82,9 +82,7 @@ export default function Home(props) {
                 </div>
               </div>
             </li>
-            <li>
-              {/* <div className="h-[4em] w-[4em] rounded-[50%] bg-blue-700"></div> */}
-            </li>
+
             <li>
               <a href="#" className="hover:text-orange-400">
                 CARS
