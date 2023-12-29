@@ -51,20 +51,20 @@ export default function Home(props) {
                 }
               >
                 <div className="flex flex-col gap-4 items-start text-[13px]">
-                  <p className="flex items-center">
-                    {/* <FontAwesomeIcon icon={faCat} /> */}
+                  <p className="flex items-center gap-2">
+                    <FontAwesomeIcon icon={faCat} />
                     pet
                   </p>
-                  <p className="flex items-center">
-                    {/* <FontAwesomeIcon icon={faMobile} /> */}
+                  <p className="flex items-center gap-3">
+                    <FontAwesomeIcon icon={faMobile} />
                     Mobile
                   </p>
-                  <p className="flex items-center">
-                    {/* <FontAwesomeIcon icon={faStore} /> */}
+                  <p className="flex items-center gap-2">
+                    <FontAwesomeIcon icon={faStore} />
                     Store
                   </p>
-                  <p className="flex items-center">
-                    {/* <FontAwesomeIcon icon={faBook} /> */}
+                  <p className="flex items-center gap-3">
+                    <FontAwesomeIcon icon={faBook} />
                     Book
                   </p>
                 </div>
@@ -103,7 +103,9 @@ export default function Home(props) {
         </nav>
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
-            <h1 className="text-[65px] font-bold text-center">The Frontier Community</h1>
+            <h1 className="text-[65px] font-bold text-center">
+              The Frontier Community
+            </h1>
             <p>Digital Resolutions, Digital Hub</p>
           </div>
         </div>
