@@ -35,6 +35,7 @@ export default function Home(props) {
     props.imageSix,
     props.imageSeven,
     props.imageEight,
+    props.imageNine,
   ];
   return (
     <>

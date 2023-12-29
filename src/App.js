@@ -11,6 +11,7 @@ import image5 from "../src/images/Maximillian5.png";
 import image6 from "../src/images/Maximillian6.png";
 import image7 from "../src/images/Maximillian7.png";
 import image8 from "../src/images/Maximillian8.png";
+import image9 from "../src/images/Maximillian9.png";
 
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
           imageSix={image6}
           imageSeven={image7}
           imageEight={image8}
+          imageNine={image9}
         />
       </div>
     );

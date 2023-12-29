@@ -15,19 +15,32 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container relative">
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img
-              src={image}
-              alt={`slide-${index}`}
-              className="carousel-image"
-            />
+            {index === images.length - 1 ? ( // Check if it's the last image
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={image}
+                  alt={`slide-${index}`}
+                  className="carousel-image"
+                />
+              </a>
+            ) : (
+              <img
+                src={image}
+                alt={`slide-${index}`}
+                className="carousel-image"
+              />
+            )}
           </div>
         ))}
-      </Slider>
-      <p className="text-center">DECEMBER 16, 2023</p>
+          </Slider>
+          <br /><br />
+      <p className="text-center absolute bottom-4 left-0 right-0">
+        DECEMBER 16, 2023
+      </p>
     </div>
   );
 };
