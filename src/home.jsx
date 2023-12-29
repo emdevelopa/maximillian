@@ -27,7 +27,7 @@ export default function Home(props) {
     <>
       <div className="bgImage">
         <nav className="text-white fixed w-full flex justify-around">
-          <img src={props.logo} alt="swsw" className="w-[9em]" />
+          <img src={props.logo} alt="logo" className="w-[9em]" />
 
           <ul className="flex justify-around items-center w-[40%] max-md-957:bg-red-700 max-md-[600px]:hidden">
             <li>
@@ -36,13 +36,9 @@ export default function Home(props) {
               </a>
             </li>
             <li>
-              <a
-                href="#"
-                className="hover:text-orange-400"
-                onClick={handleDropdown}
-              >
+              <p className="hover:text-orange-400 cursor-pointer" onClick={handleDropdown}>
                 STORES <FontAwesomeIcon icon={faAngleDown} />
-              </a>
+              </p>
 
               <div
                 className={
