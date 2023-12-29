@@ -52,7 +52,7 @@ export default function Home(props) {
                 <div className="flex flex-col gap-4 items-start text-[13px]">
                   <p className="flex items-center gap-2">
                     <FontAwesomeIcon icon={faCat} />
-                    Pet
+                    Pets
                   </p>
                   <p className="flex items-center gap-3">
                     <FontAwesomeIcon icon={faMobile} />
@@ -60,7 +60,7 @@ export default function Home(props) {
                   </p>
                   <p className="flex items-center gap-2">
                     <FontAwesomeIcon icon={faStore} />
-                    Store
+                    Wears
                   </p>
                   <p className="flex items-center gap-3">
                     <FontAwesomeIcon icon={faBook} />
