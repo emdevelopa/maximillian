@@ -135,7 +135,7 @@ export default function Home(props) {
             influence.
           </p>
         </div>
-        <div className="px-[8em] flex justify-between mb-12">
+        <div className="px-[8em] flex justify-between ">
           <div
             className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
             style={{ backgroundImage: `url(${props.imageOne})` }}
@@ -149,7 +149,7 @@ export default function Home(props) {
             style={{ backgroundImage: `url(${props.imageThree})` }}
           ></div>
         </div>
-        {/* <p className="text-center text-[14px] text-blue-600">SEE MORE &gt;</p> */}
+        <p className="text-center text-[14px] text-blue-600"></p>
       </div>
       <div className="bg-black text-white pt-[6em]">
         <div className="flex items-center flex-col gap-4 mb-12">
@@ -159,7 +159,7 @@ export default function Home(props) {
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex justify-between mb-12 max-md-[600px]:flex-col">
+        <div className="px-[8em] flex justify-between max-md-[600px]:flex-col">
           {/* <div className="flex flex-col items-center gap-4"> */}
             <Carousel images={images} />
            
