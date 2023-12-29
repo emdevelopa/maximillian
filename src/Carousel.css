@@ -6,8 +6,22 @@
 
 .carousel-image {
   width: 100%;
-  height: 22em;
+  height: 30em;
 }
+
+.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px; /* Adjust the font size of the dots */
+  color: #ffffff; /* Set the color of the dots */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #000000; /* Set the color of the active dot */
+}
+
 
 @media (max-width: 700px) {
   .carousel-container {

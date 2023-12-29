@@ -182,7 +182,7 @@ export default function Home(props) {
               want to make the most out of it.
             </p>
           </div> */}
-          <div className="flex flex-col items-center gap-4 max-md]">
+          <div className="flex flex-col items-center gap-4">
             <div className="w-[30em] h-[20em] bg-blue-500"></div>
             <p>MAY 30, 2017</p>
             <h1 className="font-bold text-[24px]">An Unforgettable</h1>

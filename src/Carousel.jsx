@@ -27,9 +27,7 @@ const Carousel = ({ images }) => {
           </div>
         ))}
       </Slider>
-      <h1 className="font-bold text-center text-[24px]">
-        If you really want to change your life follow @maximilliansolutions.
-      </h1>
+      <p className="text-center">DECEMBER 16, 2023</p>
     </div>
   );
 };
