@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from "./Carousel";
+
 import {
   faAngleDown,
   faBook,
@@ -12,6 +13,7 @@ import {
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
   const [showToolTips, setShowToolTips] = useState(false);
+
   const handleDropdown = () => {
     setOnHover(!onHover);
   };
@@ -22,7 +24,7 @@ export default function Home(props) {
   const handleHideToolTips = () => {
     setShowToolTips(false);
   };
-
+  console.log(hamburger);
   const images = [
     props.imageZero,
     props.imageOne,
@@ -41,7 +43,11 @@ export default function Home(props) {
         <nav className="text-white fixed w-full flex justify-around z-30">
           <img src={props.logo} alt="logo" className="w-[9em] " />
 
-          <ul className="flex justify-around items-center w-[40%] max-md-957:bg-red-700 max-md-[600px]:hidden">
+          <ul
+            className={
+              "flex justify-around items-center w-[40%] max-md-957:bg-red-700"
+            }
+          >
             <li>
               <a href="#" className="hover:text-orange-400">
                 ABOUT
@@ -106,9 +112,7 @@ export default function Home(props) {
               </a>
             </li>
           </ul>
-          <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
-            <p>menu</p>
-          </div>
+          <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block"></div>
         </nav>
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
