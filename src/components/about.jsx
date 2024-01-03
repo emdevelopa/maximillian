@@ -55,8 +55,8 @@ export default function About(props) {
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
-                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
-                <p>Director</p>
+                <h1 className="font-bold text-[20px] ">Shammar Kayode-ige</h1>
+                <p className="font-bold text-[14px]">Founder</p>
               </div>
               <div className="flex gap-2 justify-around pt-[5em] pb-8">
                 <p>F</p>
@@ -72,8 +72,8 @@ export default function About(props) {
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
-                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
-                <p>Director</p>
+                <h1 className="font-bold text-[20px] ">Gyimah Isaac</h1>
+                <p className="font-bold text-[14px]">CEO</p>
               </div>
               <div className="flex gap-2 justify-around pt-[5em] pb-8">
                 <p>F</p>
@@ -89,8 +89,8 @@ export default function About(props) {
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
-                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
-                <p>Director</p>
+                <h1 className="font-bold text-[20px] ">Olufunmilayo Philip</h1>
+                <p className="font-bold text-[14px]">Marketing Director</p>
               </div>
               <div className="flex gap-2 justify-around pt-[5em] pb-8">
                 <p>F</p>

@@ -14,9 +14,13 @@ export default function Journal(props) {
           </p>
         </div>
         <div className="px-[8em] flex justify-between max-md-[600px]:flex-col">
+          {/* {props.images.slice.map((index,item) => {
+            console.log(item);
+            
+            return <img src={item} alt={"image" + index} />;
+          })} */}
           {/* <div className="flex flex-col items-center gap-4"> */}
-          <Carousel images={props.images} />
-
+          {/* <Carousel images={props.images} /> */}
           {/* </div> */}
           {/* <div className="flex flex-col items-center gap-4">
             <div className="w-[30em] h-[20em] bg-blue-500"></div>
@@ -36,7 +40,7 @@ export default function Journal(props) {
               want to make the most out of it.
             </p>
           </div> */}
-          <div className="flex flex-col items-center gap-4">
+          {/* <div className="flex flex-col items-center gap-4">
             <a href="#">
               <div className="w-[30em] h-[20em] bg-blue-500"></div>
             </a>
@@ -46,7 +50,7 @@ export default function Journal(props) {
               If you have one day to visit Yosemite National Park <br /> and you
               want to make the most out of it.
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
