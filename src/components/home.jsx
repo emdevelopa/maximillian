@@ -24,7 +24,7 @@ export default function Home(props) {
   const handleHideToolTips = () => {
     setShowToolTips(false);
   };
-  console.log(hamburger);
+  // console.log(hamburger);
   const images = [
     props.imageZero,
     props.imageOne,
