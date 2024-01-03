@@ -1,7 +1,7 @@
 export default function About(props) {
   return (
     <>
-      <section className="text-white py-[6em] px-[4em]">
+      <section className="text-white py-[6em] px-[4em]" id="about">
         <h1 className="text-center font-bold text-[36px] mb-[1em]">About Us</h1>
         <div className=" flex justify-between gap-6">
           <h1 className="text-[45px] font-bold w-[40%]">

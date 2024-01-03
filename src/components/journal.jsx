@@ -5,7 +5,9 @@ export default function Journal(props) {
     <>
       <div className=" text-white pt-[6em]">
         <div className="flex items-center flex-col gap-4 mb-12">
-          <h1 className="text-[36px] font-bold">Maximillian Journal</h1>
+          <h1 className="text-[36px] font-bold">
+            <span className="text-[#F94C30]">Maximillian </span>Journal
+          </h1>
           <p className="text-center w-1/2">
             Our favorite stories about self development and opportunities for
             you to get involved in protecting your experience.

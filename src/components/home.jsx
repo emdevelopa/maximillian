@@ -53,7 +53,7 @@ export default function Home(props) {
               }
             >
               <li>
-                <a href="#" className="hover:text-orange-400">
+                <a href="#about" className="hover:text-orange-400">
                   ABOUT
                 </a>
               </li>
@@ -160,6 +160,8 @@ export default function Home(props) {
           </div>
           <p className="text-center text-[14px] text-blue-600"></p>
         </div>
+
+        {/* Journal */}
         <Journal images={images} />
 
         {/* About us */}
