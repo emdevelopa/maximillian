@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../src/css/App.css";
 import logo from "./logo.png";
 import Home from "./components/home";
@@ -16,21 +17,28 @@ import image9 from "../src/images/Maximillian9.png";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Home
-          logo={logo}
-          imageZero={image0}
-          imageOne={image1}
-          imageTwo={image2}
-          imageThree={image3}
-          imageFour={image4}
-          imageFive={image5}
-          imageSix={image6}
-          imageSeven={image7}
-          imageEight={image8}
-          imageNine={image9}
-        />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Home
+                logo={logo}
+                imageZero={image0}
+                imageOne={image1}
+                imageTwo={image2}
+                imageThree={image3}
+                imageFour={image4}
+                imageFive={image5}
+                imageSix={image6}
+                imageSeven={image7}
+                imageEight={image8}
+                imageNine={image9}
+              />
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     );
   }
 }
