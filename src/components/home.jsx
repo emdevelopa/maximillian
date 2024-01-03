@@ -41,7 +41,7 @@ export default function Home(props) {
     <>
       <section className="bg-black">
         <div className="bgImage">
-          <nav className="text-white fixed w-full flex justify-around z-30">
+          <nav className="text-white w-full flex justify-around z-30">
             <img src={props.logo} alt="logo" className="w-[9em] " />
 
             <ul
@@ -204,6 +204,8 @@ export default function Home(props) {
 
           {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
         </div>
+
+        {/* About us */}
         <section className="text-white py-[6em] px-[4em]">
           <h1 className="text-center font-bold text-[36px]">About Us</h1>
           <div className=" flex justify-between gap-6">
@@ -236,6 +238,25 @@ export default function Home(props) {
             <div className="p-[2em] rounded-[2em] bg-white text-black">
               <h3 className="font-bold text-[20px]">Professional Team</h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+          </div>
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center w-[10em] m-auto px-[1em] py-1 rounded-[4em] mt-[6em] justify-center gap-2 custom-shadow">
+              <div className="bg-[#F94C30] w-4 h-4 rounded-full"></div>Our Team{" "}
+              <div className="bg-[#F94C30] w-4 h-4 rounded-full"></div>
+            </div>
+            <div className=" flex items-center flex-col gap-6">
+              <h1 className="text-[45px] font-bold ">
+                <span className="text-[#F94C30]">Team</span> Members
+              </h1>
+              <p className="w-[40%] text-center">
+                Sint nascetur facere, delectus conubia consequuntur, nonummy
+                distinctio! Non officiis, id natus non nisl provident justo.
+              </p>
+            </div>
+            {/* Card Sections */}
+            <div>
+              <div></div>
             </div>
           </div>
         </section>
