@@ -42,7 +42,7 @@ export default function Home(props) {
     <>
       <section className="bg-black">
         <div className="bgImage">
-          <nav className="text-white fixed w-full flex justify-around z-30 border">
+          <nav className="text-white fixed w-full flex justify-around z-30">
             <img src={props.logo} alt="logo" className="w-[9em] " />
 
             <ul
