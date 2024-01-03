@@ -10,7 +10,6 @@ import {
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
 
-
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
   const [showToolTips, setShowToolTips] = useState(false);
@@ -130,7 +129,7 @@ export default function Home(props) {
         </div>
         <div className=" text-white pt-[6em]">
           <div className="flex items-center flex-col gap-4 mb-12">
-            <h1 className="text-[36px]">Explore</h1>
+            <h1 className="text-[36px] font-bold">Explore</h1>
             <p className="text-center w-1/2">
               Maximillian Solutions Limited is a pioneering force at the
               intersection of innovation and impact, strategically metamorphism
@@ -161,7 +160,7 @@ export default function Home(props) {
         </div>
         <div className=" text-white pt-[6em]">
           <div className="flex items-center flex-col gap-4 mb-12">
-            <h1 className="text-[36px]">Maximillian Journal</h1>
+            <h1 className="text-[36px] font-bold">Maximillian Journal</h1>
             <p className="text-center w-1/2">
               Our favorite stories about self development and opportunities for
               you to get involved in protecting your experience.
@@ -205,15 +204,38 @@ export default function Home(props) {
 
           {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
         </div>
-        <section className="text-white pt-[6em]">
-          <h1 className="text-center text-[36px]">About Us</h1>
-          <div className="px-[8em]">
-            <h1 className="text-[45px] font-bold ">
-              <span className="text-[#F94C30]">Introduction</span> To Best <br />
+        <section className="text-white py-[6em] px-[4em]">
+          <h1 className="text-center font-bold text-[36px]">About Us</h1>
+          <div className=" flex justify-between gap-6">
+            <h1 className="text-[45px] font-bold w-[40%]">
+              <span className="text-[#F94C30]">Introduction</span> To Best{" "}
+              <br />
               Tech Agency!
             </h1>
-            <div>
 
+            <p className="w-[30%] py-4">
+              Harum quisquam amet debitis pariatur quas? Nemo excepturi duis
+              minim nostrud officiis dolorem fugit itaque, fugiat excepturi
+              modi, porta.
+            </p>
+            <p className="w-[30%] py-4">
+              Harum quisquam amet debitis pariatur quas? Nemo excepturi duis
+              minim nostrud officiis dolorem fugit itaque, fugiat excepturi
+              modi, porta.
+            </p>
+          </div>
+          <div className="flex gap-10 mt-8">
+            <div className="p-[2em] rounded-[2em] bg-white text-black">
+              <h3 className="font-bold text-[20px]">Best Price Guaranteed</h3>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div className="p-[2em] rounded-[2em] bg-[#F94C30] text-white">
+              <h3 className="font-bold text-[20px]">Finance Analysis</h3>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+            <div className="p-[2em] rounded-[2em] bg-white text-black">
+              <h3 className="font-bold text-[20px]">Professional Team</h3>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
           </div>
         </section>
