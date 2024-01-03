@@ -13,6 +13,7 @@ import image6 from "../src/images/Maximillian6.png";
 import image7 from "../src/images/Maximillian7.png";
 import image8 from "../src/images/Maximillian8.png";
 import image9 from "../src/images/Maximillian9.png";
+import juice from "../src/images/juice.jpg";
 
 class App extends Component {
   render() {
@@ -34,6 +35,7 @@ class App extends Component {
                 imageSeven={image7}
                 imageEight={image8}
                 imageNine={image9}
+                juice={juice}
               />
             }
           />
