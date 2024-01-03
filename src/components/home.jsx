@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from "./Carousel";
-
+import {ToggleBurger} from "./Hamburger";
 import {
   faAngleDown,
   faBook,
@@ -10,10 +10,11 @@ import {
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
 
+
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
   const [showToolTips, setShowToolTips] = useState(false);
-
+  const [hamburger, SetHamburger] = useState(false);
   const handleDropdown = () => {
     setOnHover(!onHover);
   };
@@ -24,7 +25,6 @@ export default function Home(props) {
   const handleHideToolTips = () => {
     setShowToolTips(false);
   };
-  console.log(hamburger);
   const images = [
     props.imageZero,
     props.imageOne,
@@ -45,7 +45,7 @@ export default function Home(props) {
 
           <ul
             className={
-              "flex justify-around items-center w-[40%] max-md-957:bg-red-700"
+              "flex justify-around items-center w-[40%] max-md-957:bg-red-700" + (hamburger ? "max-md-[600px]:block" : "max-md-[600px]:hidden")
             }
           >
             <li>
@@ -112,7 +112,11 @@ export default function Home(props) {
               </a>
             </li>
           </ul>
-          <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block"></div>
+          <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
+            <p onclick ={() =>ToggleBurger(SetHamburger)}>
+              Menu
+            </p>
+          </div>
         </nav>
         <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
           <div className="flex flex-col items-center">
