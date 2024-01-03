@@ -2,7 +2,7 @@ export default function About(props) {
   return (
     <>
       <section className="text-white py-[6em] px-[4em]">
-        <h1 className="text-center font-bold text-[36px]">About Us</h1>
+        <h1 className="text-center font-bold text-[36px] mb-[1em]">About Us</h1>
         <div className=" flex justify-between gap-6">
           <h1 className="text-[45px] font-bold w-[40%]">
             <span className="text-[#F94C30]">Introduction</span> To Best <br />
@@ -48,7 +48,7 @@ export default function About(props) {
           </div>
           {/* Card Sections */}
           <div className="flex justify-around">
-            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+            <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.juice}
                 alt="juice"
@@ -65,7 +65,7 @@ export default function About(props) {
                 <p>I</p>
               </div>
             </div>
-            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+            <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.juice}
                 alt="juice"
@@ -82,7 +82,7 @@ export default function About(props) {
                 <p>I</p>
               </div>
             </div>
-            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+            <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.juice}
                 alt="juice"
