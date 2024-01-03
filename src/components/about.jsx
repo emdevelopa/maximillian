@@ -47,10 +47,52 @@ export default function About(props) {
             </p>
           </div>
           {/* Card Sections */}
-          <div className="">
-            <div className="w-[15em] rounded-[5em]">
-              <img src={props.juice} alt="juice" />
-              <div>
+          <div className="flex justify-around">
+            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+              <img
+                src={props.juice}
+                alt="juice"
+                className="rounded-tl-[2em] rounded-tr-[2em]"
+              />
+              <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
+                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
+                <p>Director</p>
+              </div>
+              <div className="flex gap-2 justify-around pt-[5em] pb-8">
+                <p>F</p>
+                <p>X</p>
+                <p>Y</p>
+                <p>I</p>
+              </div>
+            </div>
+            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+              <img
+                src={props.juice}
+                alt="juice"
+                className="rounded-tl-[2em] rounded-tr-[2em]"
+              />
+              <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
+                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
+                <p>Director</p>
+              </div>
+              <div className="flex gap-2 justify-around pt-[5em] pb-8">
+                <p>F</p>
+                <p>X</p>
+                <p>Y</p>
+                <p>I</p>
+              </div>
+            </div>
+            <div className="relative w-[15em] bg-white text-black rounded-[2em]">
+              <img
+                src={props.juice}
+                alt="juice"
+                className="rounded-tl-[2em] rounded-tr-[2em]"
+              />
+              <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[55%] right-5 text-white">
+                <h1 className="font-bold text-[22px] ">Sharma Ige</h1>
+                <p>Director</p>
+              </div>
+              <div className="flex gap-2 justify-around pt-[5em] pb-8">
                 <p>F</p>
                 <p>X</p>
                 <p>Y</p>
