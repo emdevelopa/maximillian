@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Carousel from "./Carousel";
+
 import ToggleBurger from "./Hamburger";
 import About from "./about";
 import {
@@ -10,6 +10,7 @@ import {
   faMobile,
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
+import Journal from "./journal";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
@@ -42,7 +43,7 @@ export default function Home(props) {
     <>
       <section className="bg-black">
         <div className="bgImage">
-          <nav className="text-white w-full flex justify-around z-30">
+          <nav className="text-white absolute w-full flex justify-around z-30">
             <img src={props.logo} alt="logo" className="w-[9em] " />
 
             <ul
@@ -159,52 +160,7 @@ export default function Home(props) {
           </div>
           <p className="text-center text-[14px] text-blue-600"></p>
         </div>
-        <div className=" text-white pt-[6em]">
-          <div className="flex items-center flex-col gap-4 mb-12">
-            <h1 className="text-[36px] font-bold">Maximillian Journal</h1>
-            <p className="text-center w-1/2">
-              Our favorite stories about self development and opportunities for
-              you to get involved in protecting your experience.
-            </p>
-          </div>
-          <div className="px-[8em] flex justify-between max-md-[600px]:flex-col">
-            {/* <div className="flex flex-col items-center gap-4"> */}
-            <Carousel images={images} />
-
-            {/* </div> */}
-            {/* <div className="flex flex-col items-center gap-4">
-            <div className="w-[30em] h-[20em] bg-blue-500"></div>
-            <p>MAY 30, 2017</p>
-            <h1 className="font-bold text-[24px]">An Unforgettable</h1>
-            <p className="text-center mt-4 ">
-              If you have one day to visit Yosemite National Park <br /> and you
-              want to make the most out of it.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <div className="w-[30em] h-[20em] bg-blue-500"></div>
-            <p>MAY 30, 2017</p>
-            <h1 className="font-bold text-[24px]">An Unforgettable</h1>
-            <p className="text-center mt-4 ">
-              If you have one day to visit Yosemite National Park <br /> and you
-              want to make the most out of it.
-            </p>
-          </div> */}
-            <div className="flex flex-col items-center gap-4">
-              <a href="#">
-                <div className="w-[30em] h-[20em] bg-blue-500"></div>
-              </a>
-              <p>MAY 30, 2017</p>
-              <h1 className="font-bold text-[24px]">An Unforgettable</h1>
-              <p className="text-center mt-4 ">
-                If you have one day to visit Yosemite National Park <br /> and
-                you want to make the most out of it.
-              </p>
-            </div>
-          </div>
-
-          {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
-        </div>
+        <Journal images={images} />
 
         {/* About us */}
         <About juice={props.juice} />
