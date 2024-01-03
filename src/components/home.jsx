@@ -11,6 +11,7 @@ import {
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
 import Journal from "./journal";
+import WhatWeOffer from "./offer";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
@@ -166,6 +167,9 @@ export default function Home(props) {
 
         {/* About us */}
         <About juice={props.juice} />
+
+        {/* What we offer */}
+        <WhatWeOffer/>
         <footer className="bgImage h-[20em] flex items-end text-white justify-center">
           <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
         </footer>
