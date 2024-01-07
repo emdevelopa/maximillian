@@ -164,7 +164,7 @@ export default function Home(props) {
 
         {/* Journal */}
         <Journal images={props.imageNine} journalImage={props.journalImage} />
-        <p className="text-white">{props.imageNine}</p>
+        
 
         {/* About us */}
         <About juice={props.juice} />
