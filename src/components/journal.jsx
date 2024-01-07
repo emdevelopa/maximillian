@@ -13,7 +13,7 @@ export default function Journal(props) {
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex justify-between max-md-[600px]:flex-col">
+        <div className="px-[8em] flex justify-center max-md-[600px]:flex-col">
           {/* {props.images.slice.map((index,item) => {
             console.log(item);
             
