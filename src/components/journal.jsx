@@ -15,6 +15,8 @@ export default function Journal(props) {
         </div>
         <div className="px-[8em] flex justify-center max-md-[600px]:flex-col">
           <img src={props.journalImage} alt="index" className="w-[50%]" />
+          <img src={props.images} alt="hello" />
+          
           {/* {props.images.slice.map((index,item) => {
             console.log(item);
             

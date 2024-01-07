@@ -130,7 +130,7 @@ export default function Home(props) {
             </div>
           </div>
         </div>
-        <div className=" text-white pt-[6em]">
+        <div className="text-white pt-[6em]">
           <div className="flex items-center flex-col gap-4 mb-12">
             <h1 className="text-[36px] font-bold">Explore</h1>
             <p className="text-center w-1/2">
@@ -163,13 +163,14 @@ export default function Home(props) {
         </div>
 
         {/* Journal */}
-        <Journal images={images} journalImage={props.journalImage} />
+        <Journal images={props.imageNine} journalImage={props.journalImage} />
+        <p className="text-white">{props.imageNine}</p>
 
         {/* About us */}
         <About juice={props.juice} />
 
         {/* What we offer */}
-        <WhatWeOffer/>
+        <WhatWeOffer />
         <footer className="bgImage h-[20em] flex items-end text-white justify-center">
           <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
         </footer>
