@@ -163,7 +163,7 @@ export default function Home(props) {
         </div>
 
         {/* Journal */}
-        <Journal images={images} />
+        <Journal images={images} journalImage={props.journalImage} />
 
         {/* About us */}
         <About juice={props.juice} />
