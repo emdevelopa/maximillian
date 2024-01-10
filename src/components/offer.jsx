@@ -58,8 +58,8 @@ export default function WhatWeOffer() {
           </p>
         </div>
       </section>
-      <div>
-        <button className="p-[1em] m-auto rounded-[4em] bg-[#F94C30]">
+      <div className="flex justify-center">
+        <button className="p-[1em] rounded-[4em] bg-[#F94C30]">
           MORE SERVICES
         </button>
       </div>
