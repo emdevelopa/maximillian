@@ -38,9 +38,7 @@ export default function WhatWeOffer() {
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">03.</h1>
           </div>
-          <h2 className="font-bold text-[22px] mb-6">
-            Website Develop Planning
-          </h2>
+          <h2 className="font-bold text-[22px] mb-6">SEO & Content Writing</h2>
           <p>
             Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
             inn.
@@ -52,7 +50,7 @@ export default function WhatWeOffer() {
             <h1 className="text-[40px] font-bold">04.</h1>
           </div>
           <h2 className="font-bold text-[22px] mb-6">
-            Website Develop Planning
+            Digital Marketing Startegy
           </h2>
           <p>
             Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
