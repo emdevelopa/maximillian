@@ -1,7 +1,7 @@
 export default function WhatWeOffer() {
   return (
     <section className="text-white p-[6em] ">
-      <div className="text-center">
+      <div className="text-center mb-[4em]">
         <h1 className="font-bold text-[45px] m-auto w-[50%]">
           Best Services We Can Offer For You !
         </h1>
@@ -58,7 +58,7 @@ export default function WhatWeOffer() {
           </p>
         </div>
       </section>
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-[4em]">
         <button className="p-[1em] rounded-[4em] bg-[#F94C30]">
           MORE SERVICES
         </button>
