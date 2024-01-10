@@ -13,7 +13,7 @@ export default function WhatWeOffer() {
             <h1 className="text-[40px] font-bold">01.</h1>
           </div>
           <h2 className="font-bold text-[22px] mb-6">
-            Website Development
+            Website Developmentjj
           </h2>
           <p>
             Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
