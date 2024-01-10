@@ -60,6 +60,11 @@ export default function WhatWeOffer() {
           </p>
         </div>
       </section>
+      <div>
+        <button className="p-[4em] rounded-[4em] bg-[#F94C30]">
+          MORE SERVICES
+        </button>
+      </div>
     </section>
   );
 }
