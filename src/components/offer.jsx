@@ -21,7 +21,7 @@ export default function WhatWeOffer() {
           </p>
         </div>
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
-          <div className="bg-[#F94C30] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
+          <div className="bg-[#1D274E] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">02.</h1>
           </div>
@@ -47,7 +47,7 @@ export default function WhatWeOffer() {
           </p>
         </div>
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
-          <div className="bg-[#F94C30] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
+          <div className="bg-[#1D274E] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">04.</h1>
           </div>
