@@ -126,7 +126,11 @@ export default function Home(props) {
               <h1 className="text-[65px] font-bold text-center">
                 The Frontier Community
               </h1>
-              <p>Digital Resolutions, Digital Hub</p>
+              <p>
+                Established with a vision to bridge the gap between innovation
+                and impact, our journey is a testament to our dedication to
+                creating meaningful and sustainable solutions.
+              </p>
             </div>
           </div>
         </div>
@@ -164,7 +168,6 @@ export default function Home(props) {
 
         {/* Journal */}
         <Journal images={props.imageNine} journalImage={props.journalImage} />
-        
 
         {/* About us */}
         <About juice={props.juice} />
