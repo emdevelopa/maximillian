@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faTwitter,
   faInstagram,
-  faLinkedin,
   faXTwitter,
   faYoutube,
   // Add more social media icons as needed
@@ -62,8 +60,10 @@ export default function About(props) {
               <span className="text-[#F94C30]">Team</span> Members
             </h1>
             <p className="w-[40%] text-center">
-              Sint nascetur facere, delectus conubia consequuntur, nonummy
-              distinctio! Non officiis, id natus non nisl provident justo.
+              Meet the driving force behind Maximillian Solutions — our
+              exceptional team of tech enthusiasts, innovators, and problem
+              solvers. Each member brings unique expertise, ensuring we deliver
+              tailored solutions with passion and precision.
             </p>
           </div>
           {/* Card Sections */}

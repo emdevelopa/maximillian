@@ -6,7 +6,7 @@ export default function WhatWeOffer() {
           Best Services We Can Offer For You !
         </h1>
       </div>
-      <section className="flex justify-between">
+      <section className="flex justify-between flex-wrap ">
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
           <div className="bg-[#F94C30] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">

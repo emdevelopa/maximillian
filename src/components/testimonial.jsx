@@ -34,12 +34,7 @@ const testimonialData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero...",
     author: "John Doe",
   },
-  {
-    id: 5,
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero...",
-    author: "John Doe",
-  },
+ 
   // Add more testimonial data as needed
 ];
 
@@ -48,10 +43,28 @@ const TestimonialCarousel = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    appendDots: (dots) => (
+        <div style={{ bottom: "-30px" }}>
+        <ul className="slick-dots" style={{ margin: "0" }}>
+          {dots}
+        </ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "10px",
+          height: "10px",
+        //   backgroundColor: "#6B7280", // Change the color to your desired color
+          borderRadius: "50%",
+          display: "inline-block",
+          margin: "0 5px",
+        }}
+      />
+    ),
   };
-
   return (
     <div className="container mx-auto mt-10">
       <Slider {...settings}>
