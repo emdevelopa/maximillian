@@ -33,16 +33,23 @@ export default function About(props) {
         </div>
         <div className="flex gap-10 mt-8">
           <div className="p-[2em] rounded-[2em] bg-white text-black">
-            <h3 className="font-bold text-[20px]">Best Price Guaranteed</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h3 className="font-bold text-[20px]">Digital Transformation</h3>
+            Seamlessly integrate technology into your operations,
+            revolutionizing the way you do business.
           </div>
           <div className="p-[2em] rounded-[2em] bg-[#F94C30] text-white">
-            <h3 className="font-bold text-[20px]">Finance Analysis</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h3 className="font-bold text-[20px]">
+              Financial Analysis Precision
+            </h3>
+            Elevate your decision-making with our expertise in financial
+            analysis. We go beyond technology, helping you decipher financial
+            complexities, conduct risk assessments, and develop strategic plans
+            that align with your financial objectives.
           </div>
           <div className="p-[2em] rounded-[2em] bg-white text-black">
-            <h3 className="font-bold text-[20px]">Professional Team</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <h3 className="font-bold text-[20px]">Custom Development</h3>
+            Tailor-made solutions that align with your business goals and adapt
+            to your evolving needs..
           </div>
         </div>
         <div className="flex flex-col gap-6">

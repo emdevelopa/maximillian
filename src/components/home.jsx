@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Journal from "./journal";
 import WhatWeOffer from "./offer";
+import TestimonialCarousel from "./testimonial";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
@@ -174,6 +175,7 @@ export default function Home(props) {
 
         {/* What we offer */}
         <WhatWeOffer />
+        <TestimonialCarousel/>
         <footer className="bgImage h-[20em] flex items-end text-white justify-center">
           <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
         </footer>
