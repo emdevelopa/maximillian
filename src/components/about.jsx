@@ -22,12 +22,13 @@ export default function About(props) {
           </h1>
 
           <p className="w-[30%] py-4">
-            Harum quisquam amet debitis pariatur quas? Nemo excepturi duis minim
-            nostrud officiis dolorem fugit itaque, fugiat excepturi modi, porta.
+            At Maximillian Solutions, we are not just a tech agency; we are
+            innovators, collaborators, and architects of digital transformation.
           </p>
           <p className="w-[30%] py-4">
-            Harum quisquam amet debitis pariatur quas? Nemo excepturi duis minim
-            nostrud officiis dolorem fugit itaque, fugiat excepturi modi, porta.
+            With a relentless commitment to excellence, we navigate the
+            ever-evolving landscape of technology, offering unparalleled
+            solutions that redefine industry standards.
           </p>
         </div>
         <div className="flex gap-10 mt-8">
