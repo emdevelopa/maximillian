@@ -126,9 +126,9 @@ export default function Home(props) {
               <h1 className="text-[65px] font-bold text-center">
                 The Frontier Community
               </h1>
-              <p>
-                Established with a vision to bridge the gap between innovation
-                and impact, our journey is a testament to our dedication to
+              <p className="text-center">
+                Established with a vision to bridge the gap between innovation <br />
+                and impact, our journey is a testament to our dedication to <br />
                 creating meaningful and sustainable solutions.
               </p>
             </div>
