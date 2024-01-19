@@ -13,11 +13,11 @@ export default function WhatWeOffer() {
             <h1 className="text-[40px] font-bold">01.</h1>
           </div>
           <h2 className="font-bold text-[22px] mb-6">
-            Website Development
+            Custom Software Development
           </h2>
           <p>
-            Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
-            inn.
+            Tailored solutions to address your unique business needs, enhancing
+            operational efficiency and effectiveness.
           </p>
         </div>
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
@@ -26,11 +26,11 @@ export default function WhatWeOffer() {
             <h1 className="text-[40px] font-bold">02.</h1>
           </div>
           <h2 className="font-bold text-[22px] mb-6">
-            Graphic & Sketch Designing
+            Data Analytics and Business Intelligence
           </h2>
           <p>
-            Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
-            inn.
+            Extracting actionable insights from your data to drive informed
+            decision-making and strategic planning.
           </p>
         </div>
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
@@ -38,10 +38,12 @@ export default function WhatWeOffer() {
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">03.</h1>
           </div>
-          <h2 className="font-bold text-[22px] mb-6">SEO & Content Writing</h2>
+          <h2 className="font-bold text-[22px] mb-6">
+            Cybersecurity Solutions
+          </h2>
           <p>
-            Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
-            inn.
+            Robust measures to protect your digital assets, ensuring the
+            confidentiality and integrity of sensitive information.
           </p>
         </div>
         <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
@@ -50,11 +52,11 @@ export default function WhatWeOffer() {
             <h1 className="text-[40px] font-bold">04.</h1>
           </div>
           <h2 className="font-bold text-[22px] mb-6">
-            Digital Marketing Startegy
+            Digital Transformation Consulting
           </h2>
           <p>
-            Illo tempor unde ornare ipsum vivamus facilis? Tempus mollit secate
-            inn.
+            Strategic guidance to navigate the digital landscape, optimizing
+            processes and leveraging technology for sustainable growth.
           </p>
         </div>
       </section>
