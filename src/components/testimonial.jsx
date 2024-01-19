@@ -34,39 +34,23 @@ const testimonialData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero...",
     author: "John Doe",
   },
- 
+
   // Add more testimonial data as needed
 ];
 
 const TestimonialCarousel = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    appendDots: (dots) => (
-        <div style={{ bottom: "-30px" }}>
-        <ul className="slick-dots" style={{ margin: "0" }}>
-          {dots}
-        </ul>
-      </div>
-    ),
-    customPaging: (i) => (
-      <div
-        style={{
-          width: "10px",
-          height: "10px",
-        //   backgroundColor: "#6B7280", // Change the color to your desired color
-          borderRadius: "50%",
-          display: "inline-block",
-          margin: "0 5px",
-        }}
-      />
-    ),
   };
   return (
     <div className="container mx-auto mt-10">
+      <div className="text-center mb-[4em]">
+        <h1 className="font-bold text-[45px] m-auto w-[50%]">
+          Best Services We Can Offer For You !
+        </h1>
+      </div>
       <Slider {...settings}>
         {testimonialData.map((testimonial) => (
           <div key={testimonial.id} className="p-4">
