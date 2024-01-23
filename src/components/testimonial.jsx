@@ -49,11 +49,11 @@ const testimonialData = [
 
   // Add more testimonial data as needed
 ];
-const starnumber = testimonialData.starnumber;
+
 const StarRating = ({ starnumber }) => {
   const stars = Array.from({ length: starnumber }, (_, index) => (
     <span key={index} role="img" aria-label="star">
-      <FontAwesomeIcon icon={faStar} color="#F94C30" size="sm" />
+      <FontAwesomeIcon icon={faStar} color="#F94C30" size="sm" spacing=""/>
     </span>
   ));
 
