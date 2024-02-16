@@ -134,7 +134,7 @@ export default function Home(props) {
           <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
             <div className="flex flex-col items-center">
               <h1 className="text-[65px] font-bold text-center">
-                The Frontier Community
+                The <span className="text-[#F94C30]"> Frontier</span> Community
               </h1>
               <p className="text-center">
                 Established with a vision to bridge the gap between innovation{" "}
@@ -161,7 +161,7 @@ export default function Home(props) {
               the landscape of influence.
             </p>
           </div>
-          <div className="px-[8em] flex justify-between ">
+          {/* <div className="px-[8em] flex justify-between ">
             <div
               className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
               style={{ backgroundImage: `url(${props.imageOne})` }}
@@ -174,8 +174,8 @@ export default function Home(props) {
               className="w-[20em] h-[34em] bg-blue-500 p-2 bg-no-repeat bg-cover"
               style={{ backgroundImage: `url(${props.imageThree})` }}
             ></div>
-          </div>
-          <p className="text-center text-[14px] text-blue-600"></p>
+          </div> */}
+          {/* <p className="text-center text-[14px] text-blue-600"></p> */}
         </div>
 
         {/* Journal */}
