@@ -13,6 +13,7 @@ import {
 import Journal from "./journal";
 import WhatWeOffer from "./offer";
 import TestimonialCarousel from "./testimonial";
+import Footer from "./footer";
 
 export default function Home(props) {
   const [onHover, setOnHover] = useState(false);
@@ -186,53 +187,7 @@ export default function Home(props) {
         {/* What we offer */}
         <WhatWeOffer />
         <TestimonialCarousel />
-        <footer className="bgmage mt-[8em] text-white flex flex-col gap-[4em]">
-          <section className="flex justify-around items-center ">
-            <img src={props.logo} alt="logo" className="w-[9em] " />
-            <ul className="flex flex-col gap-4">
-              <li>
-                <a
-                  href="#about"
-                  className="hover:text-orange-400 hover:underline"
-                >
-                  ABOUT
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-orange-400 hover:underline">
-                  MARKETPLACE
-                </a>
-              </li>
-
-              <li>
-                <a href="#" className="hover:text-orange-400 hover:underline">
-                  CARS
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-orange-400 relative hover:underline"
-                  onMouseOver={handleShowToolTips}
-                  onMouseLeave={handleHideToolTips}
-                >
-                  A&E
-                  <span
-                    className={
-                      "absolute left-0  top-5 bg-white text-black text-[12px] p-1 rounded-sm " +
-                      (showToolTips ? "block" : "hidden")
-                    }
-                  >
-                    Art & Entertainment
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </section>
-          <p className="text-center">
-            &copy; 2024 MAXIMILLIAN All rights reserved
-          </p>
-        </footer>
+        <Footer logo={props.logo} />
       </section>
     </>
   );
