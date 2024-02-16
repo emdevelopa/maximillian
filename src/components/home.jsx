@@ -55,11 +55,19 @@ export default function Home(props) {
               }
             >
               <li>
-                <a href="#about" className="hover:text-orange-400">
+                <a
+                  href="#about"
+                  className="hover:text-orange-400 hover:underline"
+                >
                   ABOUT
                 </a>
               </li>
               <li>
+                <a href="#" className="hover:text-orange-400 hover:underline">
+                  MARKETPLACE
+                </a>
+              </li>
+              {/* <li>
                 <p
                   className="hover:text-orange-400 cursor-pointer"
                   onClick={handleDropdown}
@@ -92,17 +100,17 @@ export default function Home(props) {
                     </p>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
               <li>
-                <a href="#" className="hover:text-orange-400">
+                <a href="#" className="hover:text-orange-400 hover:underline">
                   CARS
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="hover:text-orange-400 relative"
+                  className="hover:text-orange-400 relative hover:underline"
                   onMouseOver={handleShowToolTips}
                   onMouseLeave={handleHideToolTips}
                 >
@@ -128,8 +136,10 @@ export default function Home(props) {
                 The Frontier Community
               </h1>
               <p className="text-center">
-                Established with a vision to bridge the gap between innovation <br />
-                and impact, our journey is a testament to our dedication to <br />
+                Established with a vision to bridge the gap between innovation{" "}
+                <br />
+                and impact, our journey is a testament to our dedication to{" "}
+                <br />
                 creating meaningful and sustainable solutions.
               </p>
             </div>
@@ -175,9 +185,53 @@ export default function Home(props) {
 
         {/* What we offer */}
         <WhatWeOffer />
-        <TestimonialCarousel/>
-        <footer className="bgImage h-[20em] flex items-end text-white justify-center">
-          <p>&copy; 2023 MAXIMILLIAN All rights reserved</p>
+        <TestimonialCarousel />
+        <footer className="bgmage mt-[8em] text-white flex flex-col gap-[4em]">
+          <section className="flex justify-around items-center ">
+            <img src={props.logo} alt="logo" className="w-[9em] " />
+            <ul className="flex flex-col gap-4">
+              <li>
+                <a
+                  href="#about"
+                  className="hover:text-orange-400 hover:underline"
+                >
+                  ABOUT
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-orange-400 hover:underline">
+                  MARKETPLACE
+                </a>
+              </li>
+
+              <li>
+                <a href="#" className="hover:text-orange-400 hover:underline">
+                  CARS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-orange-400 relative hover:underline"
+                  onMouseOver={handleShowToolTips}
+                  onMouseLeave={handleHideToolTips}
+                >
+                  A&E
+                  <span
+                    className={
+                      "absolute left-0  top-5 bg-white text-black text-[12px] p-1 rounded-sm " +
+                      (showToolTips ? "block" : "hidden")
+                    }
+                  >
+                    Art & Entertainment
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <p className="text-center">
+            &copy; 2024 MAXIMILLIAN All rights reserved
+          </p>
         </footer>
       </section>
     </>
