@@ -8,13 +8,17 @@ export default function Journal(props) {
           <h1 className="text-[36px] font-bold">
             <span className="text-[#F94C30]">Maximillian </span>Journal
           </h1>
-          <p className="text-center w-1/2">
+          <p className="text-center w-1/2 max-md-[600px]:w-full">
             Our favorite stories about self development and opportunities for
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex justify-center max-md-[600px]:flex-col">
-          <img src={props.journalImage} alt="index" className="w-[50%]" />
+        <div className="px-[8em] flex justify-center max-md-[600px]:px-[1em]">
+          <img
+            src={props.journalImage}
+            alt="index"
+            className="w-[50%] max-md-[600px]:w-full"
+          />
           {/* <img src={props.images} className="w-[50%] h-[40em]" alt="hello" /> */}
 
           {/* {props.images.slice.map((index,item) => {

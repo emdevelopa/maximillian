@@ -13,23 +13,23 @@ export default function About(props) {
     <>
       <section className="text-white py-[6em] px-[4em]" id="about">
         <h1 className="text-center font-bold text-[36px] mb-[1em]">About Us</h1>
-        <div className=" flex justify-between gap-6">
-          <h1 className="text-[45px] font-bold w-[40%]">
+        <div className=" flex justify-between gap-6 max-md-[600px]:gap-4 max-md-[600px]:flex-col">
+          <h1 className="text-[45px] font-bold w-[40%] max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:text-[26px] max-md-[600px]:leading-[1.2em]">
             <span className="text-[#F94C30]">Introduction</span> To Best <br />
             Tech Agency!
           </h1>
 
-          <p className="w-[30%] py-4">
+          <p className="w-[30%] py-4 max-md-[600px]:w-full max-md-[600px]:text-center ">
             At Maximillian Solutions, we are not just a tech agency; we are
             innovators, collaborators, and architects of digital transformation.
           </p>
-          <p className="w-[30%] py-4">
+          <p className="w-[30%] py-4 max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:py-0">
             With a relentless commitment to excellence, we navigate the
             ever-evolving landscape of technology, offering unparalleled
             solutions that redefine industry standards.
           </p>
         </div>
-        <div className="flex gap-10 mt-8">
+        <div className="flex gap-10 mt-8 max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:flex-col">
           <div className="p-[2em] rounded-[2em] bg-white text-black">
             <h3 className="font-bold text-[20px]">Digital Transformation</h3>
             Seamlessly integrate technology into your operations,
