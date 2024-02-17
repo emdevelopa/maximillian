@@ -81,7 +81,7 @@ const TestimonialCarousel = () => {
   return (
     <div className="container mx-auto mt-10">
       <div className="text-center mb-[4em] text-white">
-        <h1 className="font-bold text-[45px] m-auto max-md-[600px]:">
+        <h1 className="font-bold text-[45px] m-auto ">
           Testimonial
         </h1>
       </div>
