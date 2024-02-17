@@ -56,10 +56,10 @@ export default function About(props) {
             <div className="bg-[#F94C30] w-4 h-4 rounded-full"></div>
           </div>
           <div className=" flex items-center flex-col gap-6">
-            <h1 className="text-[45px] font-bold ">
+            <h1 className="text-[45px] font-bold max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:leading-[1.2em]">
               <span className="text-[#F94C30]">Team</span> Members
             </h1>
-            <p className="w-[40%] text-center">
+            <p className="w-[40%] text-center max-md-[600px]:w-full">
               Meet the driving force behind Maximillian Solutions — our
               exceptional team of tech enthusiasts, innovators, and problem
               solvers. Each member brings unique expertise, ensuring we deliver
@@ -67,7 +67,7 @@ export default function About(props) {
             </p>
           </div>
           {/* Card Sections */}
-          <div className="flex justify-around">
+          <div className="flex justify-around max-md-[600px]:flex-col max-md-[600px]:items-center max-md-[600px]:gap-8">
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.juice}
