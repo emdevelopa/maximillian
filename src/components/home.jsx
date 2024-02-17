@@ -6,7 +6,10 @@ import About from "./about";
 import {
   faAngleDown,
   faBook,
+  faBurger,
   faCat,
+  faCross,
+  faHamburger,
   faMobile,
   faStore,
 } from "@fortawesome/free-solid-svg-icons";
@@ -128,12 +131,14 @@ export default function Home(props) {
               </li>
             </ul>
             <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
-              <p onclick={() => ToggleBurger(SetHamburger)}>Menu</p>
+              <p onclick={() => ToggleBurger(SetHamburger)}>
+                <FontAwesomeIcon icon={faHamburger} size="xl" />
+              </p>
             </div>
           </nav>
           <div className="bg-[#00000071] text-white h-[90vh] flex justify-center items-center">
             <div className="flex flex-col items-center">
-              <h1 className="text-[65px] font-bold text-center">
+              <h1 className="text-[65px] font-bold text-center max-md-[600px]:text-[42px]">
                 The <span className="text-[#F94C30]"> Frontier</span> Community
               </h1>
               <p className="text-center">
@@ -149,7 +154,7 @@ export default function Home(props) {
         <div className="text-white pt-[6em]">
           <div className="flex items-center flex-col gap-4 ">
             <h1 className="text-[36px] font-bold">Explore</h1>
-            <p className="text-center w-1/2">
+            <p className="text-center w-1/2 max-md-[600px]:w-full max-md-[600px]:px-1">
               Maximillian Solutions Limited is a pioneering force at the
               intersection of innovation and impact, strategically metamorphism
               the Seven Mountains of Influence. From cutting-edge technology
