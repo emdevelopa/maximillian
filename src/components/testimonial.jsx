@@ -53,7 +53,7 @@ const testimonialData = [
 const StarRating = ({ starnumber }) => {
   const stars = Array.from({ length: starnumber }, (_, index) => (
     <span key={index} role="img" aria-label="star">
-      <FontAwesomeIcon icon={faStar} color="#F94C30" size="sm" spacing=""/>
+      <FontAwesomeIcon icon={faStar} color="#F94C30" size="sm" spacing="" />
     </span>
   ));
 
@@ -65,11 +65,25 @@ const TestimonialCarousel = () => {
     infinite: true,
     speed: 200,
     slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+    ],
   };
   return (
     <div className="container mx-auto mt-10">
       <div className="text-center mb-[4em] text-white">
-        <h1 className="font-bold text-[45px] m-auto w-[50%]">Testimonial</h1>
+        <h1 className="font-bold text-[45px] m-auto max-md-[600px]:">
+          Testimonial
+        </h1>
       </div>
       <Slider {...settings}>
         {testimonialData.map((testimonial) => (
