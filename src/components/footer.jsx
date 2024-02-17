@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer(props) {
   return (
-    <footer className="bg-[#0c0c0cdc] mt-[3em] text-white flex flex-col gap-[2em]">
+    <footer className="bg-[#0c0c0cdc] m-[3em] text-white flex flex-col gap-[2em]">
       <section className="flex flex-col justify-around items-center">
         <img src={props.logo} alt="logo" className="w-[9em] " />
         <div className="mb-6 flex gap-8">
@@ -52,7 +52,7 @@ export default function Footer(props) {
             />
           </a>
         </div>
-        <ul className="flex gap-8 text-[14px]">
+        <ul className="flex gap-8 text-[14px] max-md-[600px]:flex-col max-md-[600px]:items-center">
           <li>
             <a href="#about" className="hover:text-orange-400 hover:underline">
               ABOUT
@@ -79,8 +79,8 @@ export default function Footer(props) {
           </li>
         </ul>
       </section>
-      <p className="text-center bg-black p-4">
-        &copy; 2024 MAXIMILLIAN All rights reserved
+      <p className="text-center bg-black p-4 max-md-[600px]:text-[16px]">
+        Copyright &copy; 2024 Maximillian Solutions, All rights reserved
       </p>
     </footer>
   );
