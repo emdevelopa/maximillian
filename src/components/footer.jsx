@@ -1,9 +1,58 @@
+import {
+  faFacebook,
+  faGooglePlusG,
+  faInstagram,
+  faXTwitter,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+import { faX } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Footer(props) {
   return (
-    <footer className="bgmage mt-[8em] text-white flex flex-col gap-[4em]">
-      <section className="flex justify-around items-center ">
+    <footer className="bg-[#0c0c0cdc] mt-[3em] text-white flex flex-col gap-[2em]">
+      <section className="flex flex-col justify-around items-center">
         <img src={props.logo} alt="logo" className="w-[9em] " />
-        <ul className="flex flex-col gap-4">
+        <div className="mb-6 flex gap-8">
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faFacebook}
+              size="xl"
+              className="hover:text-orange-400"
+            />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faInstagram}
+              size="xl"
+              className="hover:text-orange-400"
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <FontAwesomeIcon
+              icon={faXTwitter}
+              size="xl"
+              className="hover:text-orange-400"
+            />
+          </a>
+          <a href="#">
+            {" "}
+            <FontAwesomeIcon
+              icon={faYoutube}
+              size="xl"
+              className="hover:text-orange-400"
+            />
+          </a>
+          <a href="#">
+            <FontAwesomeIcon
+              icon={faGooglePlusG}
+              size="xl"
+              className="hover:text-orange-400"
+            />
+          </a>
+        </div>
+        <ul className="flex gap-8 text-[14px]">
           <li>
             <a href="#about" className="hover:text-orange-400 hover:underline">
               ABOUT
@@ -26,12 +75,13 @@ export default function Footer(props) {
               className="hover:text-orange-400 relative hover:underline"
             >
               ARTS & ENTERTAINMENT
-            
             </a>
           </li>
         </ul>
       </section>
-      <p className="text-center">&copy; 2024 MAXIMILLIAN All rights reserved</p>
+      <p className="text-center bg-black p-4">
+        &copy; 2024 MAXIMILLIAN All rights reserved
+      </p>
     </footer>
   );
 }
