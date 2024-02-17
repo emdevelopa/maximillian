@@ -1,13 +1,13 @@
 export default function WhatWeOffer() {
   return (
-    <section className="text-white p-[6em] ">
+    <section className="text-white p-[6em] max-md-[600px]:p-[1em]">
       <div className="text-center mb-[4em]">
-        <h1 className="font-bold text-[45px] m-auto w-[50%]">
+        <h1 className="font-bold text-[45px] m-auto w-[50%]  max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:text-[34px] max-md-[600px]:leading-[1.2em]">
           Best Services We Can Offer For You !
         </h1>
       </div>
-      <section className="flex justify-between flex-wrap ">
-        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
+      <section className="flex justify-between flex-wrap max-md-[600px]:gap-[4em] max-md-[600px]:justify-center">
+        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em] max-md-[600px]:w-full">
           <div className="bg-[#F94C30] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">01.</h1>
@@ -20,7 +20,7 @@ export default function WhatWeOffer() {
             operational efficiency and effectiveness.
           </p>
         </div>
-        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
+        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em] max-md-[600px]:w-full">
           <div className="bg-[#1D274E] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">02.</h1>
@@ -33,7 +33,7 @@ export default function WhatWeOffer() {
             decision-making and strategic planning.
           </p>
         </div>
-        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
+        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em] max-md-[600px]:w-full">
           <div className="bg-[#F94C30] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">03.</h1>
@@ -46,7 +46,7 @@ export default function WhatWeOffer() {
             confidentiality and integrity of sensitive information.
           </p>
         </div>
-        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em]">
+        <div className="border relative border-gray-400 rounded-[2em] w-[16em] p-[2em] max-md-[600px]:w-full">
           <div className="bg-[#1D274E] absolute top-[-10%] rounded-[1em] h-[4em] w-[4em]"></div>
           <div className="flex justify-end">
             <h1 className="text-[40px] font-bold">04.</h1>
