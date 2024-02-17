@@ -147,7 +147,7 @@ export default function Home(props) {
           </div>
         </div>
         <div className="text-white pt-[6em]">
-          <div className="flex items-center flex-col gap-4 mb-12">
+          <div className="flex items-center flex-col gap-4 ">
             <h1 className="text-[36px] font-bold">Explore</h1>
             <p className="text-center w-1/2">
               Maximillian Solutions Limited is a pioneering force at the
