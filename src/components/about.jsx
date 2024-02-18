@@ -11,7 +11,10 @@ import { faX } from "@fortawesome/free-solid-svg-icons";
 export default function About(props) {
   return (
     <>
-      <section className="text-white py-[6em] px-[4em]" id="about">
+      <section
+        className="text-white py-[6em] px-[4em] max-md-[600px]:px-[1em]"
+        id="about"
+      >
         <h1 className="text-center font-bold text-[36px] mb-[1em]">About Us</h1>
         <div className=" flex justify-between gap-6 max-md-[600px]:gap-4 max-md-[600px]:flex-col">
           <h1 className="text-[45px] font-bold w-[40%] max-md-[600px]:w-full max-md-[600px]:text-center max-md-[600px]:text-[26px] max-md-[600px]:leading-[1.2em]">

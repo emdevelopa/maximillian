@@ -191,7 +191,7 @@ export default function Home(props) {
 
         {/* What we offer */}
         <WhatWeOffer />
-        <TestimonialCarousel />
+        {/* <TestimonialCarousel /> */}
         <Footer logo={props.logo} />
       </section>
     </>
