@@ -77,11 +77,11 @@ export default function WhatWeOffer() {
           </p>
         </div>
       </section>
-      <div className="flex justify-center mt-[4em]">
+      {/* <div className="flex justify-center mt-[4em]">
         <button className="p-[1em] rounded-[4em] bg-[#F94C30]">
           MORE SERVICES
         </button>
-      </div>
+      </div> */}
     </section>
   );
 }
