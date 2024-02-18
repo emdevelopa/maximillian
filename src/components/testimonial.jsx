@@ -66,7 +66,7 @@ const TestimonialCarousel = () => {
     speed: 200,
     slidesToShow: 3,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 600,
@@ -74,12 +74,13 @@ const TestimonialCarousel = () => {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          arrows: false,
         },
       },
     ],
   };
   return (
-    <div className="container mx-auto mt-10">
+    <div className="container  mt-10">
       <div className="text-center mb-[4em] text-white">
         <h1 className="font-bold text-[45px] m-auto ">
           Testimonial
