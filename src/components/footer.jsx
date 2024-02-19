@@ -66,7 +66,7 @@ export default function Footer(props) {
 
           <li>
             <a href="#" className="hover:text-orange-400 hover:underline">
-              CARS
+              BLOG
             </a>
           </li>
           <li>
@@ -74,7 +74,7 @@ export default function Footer(props) {
               href="#"
               className="hover:text-orange-400 relative hover:underline"
             >
-              ARTS & ENTERTAINMENT
+              CONTACT
             </a>
           </li>
         </ul>

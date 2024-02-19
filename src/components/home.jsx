@@ -108,7 +108,7 @@ export default function Home(props) {
 
               <li>
                 <a href="#" className="hover:text-orange-400 hover:underline">
-                  CARS
+                  BLOG
                 </a>
               </li>
               <li>
@@ -118,7 +118,7 @@ export default function Home(props) {
                   onMouseOver={handleShowToolTips}
                   onMouseLeave={handleHideToolTips}
                 >
-                  A&E
+                  CONTACT
                   <span
                     className={
                       "absolute left-0  top-5 bg-white text-black text-[12px] p-1 rounded-sm " +
