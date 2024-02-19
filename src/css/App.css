@@ -13,11 +13,11 @@ html, body{
 
  }
 .bgImage {
-  /* height: 90vh; */
+  height: 90vh;
   background-image: url(../walls.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: contain;
+  /* background-attachment: fixed; */
   
 }
 
