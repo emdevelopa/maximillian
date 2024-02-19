@@ -3,16 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ToggleBurger from "./Hamburger";
 import About from "./about";
-import {
-  faAngleDown,
-  faBook,
-  faBurger,
-  faCat,
-  faCross,
-  faHamburger,
-  faMobile,
-  faStore,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHamburger, re } from "@fortawesome/free-solid-svg-icons";
 import Journal from "./journal";
 import WhatWeOffer from "./offer";
 import TestimonialCarousel from "./testimonial";
@@ -157,7 +148,7 @@ export default function Home(props) {
             <p className="text-center w-1/2 max-md-[600px]:w-full max-md-[600px]:px-1">
               Maximillian Solutions Limited is a pioneering force at the
               intersection of innovation and impact, strategically metamorphism
-              the Seven Mountains of Influence. From cutting-edge technology  
+              the Seven Mountains of Influence. From cutting-edge technology
               solutions to transformative social initiatives, we ascend each
               peak with precision, shaping the future across business,
               government, education, media, arts & entertainment, family, and
