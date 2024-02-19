@@ -73,7 +73,7 @@ export default function WhatWeOffer() {
           </h2>
           <p>
             Strategic guidance to navigate the digital landscape, optimizing
-            processes and leveraging technology for sustainable growth....
+            processes and leveraging technology for sustainable growth.
           </p>
         </div>
       </section>
