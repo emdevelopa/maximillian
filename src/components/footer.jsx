@@ -36,14 +36,14 @@ export default function Footer(props) {
               className="hover:text-orange-400"
             />
           </a>
-          <a href="#">
+          {/* <a href="#">
             {" "}
             <FontAwesomeIcon
               icon={faYoutube}
               size="xl"
               className="hover:text-orange-400"
             />
-          </a>
+          </a> */}
           <a href="#">
             <FontAwesomeIcon
               icon={faGooglePlusG}
