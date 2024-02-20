@@ -80,7 +80,7 @@ export default function Footer(props) {
         </ul>
       </section>
       <p className="text-center bg-black p-4 max-md-[600px]:text-[16px]">
-        Copyright &copy; 2024 Maximillian Solutions, All rights reserved
+        Copyright &copy; 2024 Maximillian Solutions, All rights reserved.
       </p>
     </footer>
   );
