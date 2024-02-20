@@ -6,7 +6,6 @@ import {
   faYoutube,
   // Add more social media icons as needed
 } from "@fortawesome/free-brands-svg-icons";
-import { faX } from "@fortawesome/free-solid-svg-icons";
 
 export default function About(props) {
   return (

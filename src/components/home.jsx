@@ -110,14 +110,14 @@ export default function Home(props) {
                   onMouseLeave={handleHideToolTips}
                 >
                   CONTACT
-                  <span
+                  {/* <span
                     className={
                       "absolute left-0  top-5 bg-white text-black text-[12px] p-1 rounded-sm " +
                       (showToolTips ? "block" : "hidden")
                     }
                   >
                     Art & Entertainment
-                  </span>
+                  </span> */}
                 </a>
               </li>
             </ul>
