@@ -21,14 +21,14 @@ export default function Footer(props) {
               className="hover:text-orange-400"
             />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/maximillian_solutions?igsh=NGU3bmMwNXdndDM1&utm_source=qr">
             <FontAwesomeIcon
               icon={faInstagram}
               size="xl"
               className="hover:text-orange-400"
             />
           </a>
-          <a href="#">
+          <a href="https://x.com/maximillian_sol?s=21">
             {" "}
             <FontAwesomeIcon
               icon={faXTwitter}
