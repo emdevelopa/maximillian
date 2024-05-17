@@ -81,9 +81,9 @@ export default function About(props) {
                 <p className="font-bold text-[14px]">Founder</p>
               </div>
               <div className="flex gap-6 justify-center pt-[5em] pb-8">
-                <a href="#">
+                {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
-                </a>
+                </a> */}
                 <a href="#">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
@@ -106,9 +106,9 @@ export default function About(props) {
                 <p className="font-bold text-[14px]">C.E.O</p>
               </div>
               <div className="flex gap-6 justify-center pt-[5em] pb-8">
-                <a href="#">
+                {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
-                </a>
+                </a> */}
                 <a href="#">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
@@ -131,9 +131,9 @@ export default function About(props) {
                 <p className="font-bold text-[14px]">C.T.O</p>
               </div>
               <div className="flex gap-6 justify-center pt-[5em] pb-8">
-                <a href="#">
+                {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
-                </a>
+                </a> */}
                 <a href="#">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
