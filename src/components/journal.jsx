@@ -13,7 +13,7 @@ export default function Journal(props) {
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex flex-col items-center gap-2 justify-center max-md-[600px]:px-[1em]">
+        <div className="px-[8em] flex flex-col items-center gap-8 justify-center max-md-[600px]:px-[1em]">
           <img
             src={props.journalImage}
             alt="index"
@@ -59,7 +59,7 @@ export default function Journal(props) {
               want to make the most out of it.
             </p>
           </div> */}
-          <a className="text-orange-500 underline" href="">
+          <a className="text-orange-500 underline" href="#">
             View Facts
           </a>
         </div>
