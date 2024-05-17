@@ -13,12 +13,13 @@ export default function Journal(props) {
             you to get involved in protecting your experience.
           </p>
         </div>
-        <div className="px-[8em] flex justify-center max-md-[600px]:px-[1em]">
+        <div className="px-[8em] flex flex-col items-center gap-2 justify-center max-md-[600px]:px-[1em]">
           <img
             src={props.journalImage}
             alt="index"
             className="w-[50%] max-md-[600px]:w-full"
           />
+
           {/* <img src={props.images} className="w-[50%] h-[40em]" alt="hello" /> */}
 
           {/* {props.images.slice.map((index,item) => {
@@ -58,6 +59,9 @@ export default function Journal(props) {
               want to make the most out of it.
             </p>
           </div> */}
+          <a className="text-orange-500 underline" href="">
+            View Facts
+          </a>
         </div>
 
         {/* <p className="text-center text-[14px] text-blue-600">ALL POSTS &gt;</p> */}
