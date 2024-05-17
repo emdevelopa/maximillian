@@ -123,7 +123,7 @@ export default function Home(props) {
                 </a>
               </li>
             </ul>
-            <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
+            <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block cursor-pointer">
               <p onClick={() => ToggleBurger(SetHamburger)}>
                 {hamburger ? (
                   <FontAwesomeIcon icon={faX} size="xl" />
