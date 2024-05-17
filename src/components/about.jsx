@@ -73,7 +73,7 @@ export default function About(props) {
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.founder}
-                alt="juice"
+                alt="founder"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[60%] right-5 text-white">
@@ -98,7 +98,7 @@ export default function About(props) {
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
                 src={props.cto}
-                alt="juice"
+                alt="CEO"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[60%] right-5 text-white">
@@ -122,8 +122,8 @@ export default function About(props) {
             </div>
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
-                src={props.juice}
-                alt="juice"
+                src={props.cto}
+                alt="CTO"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
               <div className="bg-[#F94C30] p-2 text-center rounded-[1.5rem]  absolute left-5 top-[60%] right-5 text-white">
