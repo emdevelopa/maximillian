@@ -13,7 +13,8 @@ import image6 from "../src/images/Maximillian6.png";
 import image7 from "../src/images/Maximillian7.png";
 import image8 from "../src/images/Maximillian8.png";
 import image9 from "../src/images/Maximillian9.png";
-import juice from "../src/images/juice.jpg";
+import cto from "../src/images/CTO.jpg";
+import founder from "../src/images/founder.jpg";
 import journalImage from "../src/images/walls.jpeg";
 
 class App extends Component {
@@ -36,7 +37,8 @@ class App extends Component {
                 imageSeven={image7}
                 imageEight={image8}
                 imageNine={image9}
-                juice={juice}
+                cto={cto}
+                founder={founder}
                 journalImage={journalImage}
               />
             }

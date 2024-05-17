@@ -72,7 +72,7 @@ export default function About(props) {
           <div className="flex justify-around max-md-[600px]:flex-col max-md-[600px]:items-center max-md-[600px]:gap-8">
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
-                src={props.juice}
+                src={props.founder}
                 alt="juice"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
@@ -97,7 +97,7 @@ export default function About(props) {
             </div>
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
-                src={props.juice}
+                src={props.cto}
                 alt="juice"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />

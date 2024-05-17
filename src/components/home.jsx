@@ -178,7 +178,7 @@ export default function Home(props) {
         <Journal images={props.imageNine} journalImage={props.journalImage} />
 
         {/* About us */}
-        <About juice={props.juice} />
+        <About cto={props.cto} founder={props.founder} />
 
         {/* What we offer */}
         <WhatWeOffer />
