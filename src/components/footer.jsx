@@ -44,13 +44,13 @@ export default function Footer(props) {
               className="hover:text-orange-400"
             />
           </a> */}
-          <a href="#">
+          {/* <a href="#">
             <FontAwesomeIcon
               icon={faGooglePlusG}
               size="xl"
               className="hover:text-orange-400"
             />
-          </a>
+          </a> */}
         </div>
         <ul className="flex gap-8 text-[14px] max-md-[600px]:flex-col max-md-[600px]:items-center">
           <li>
