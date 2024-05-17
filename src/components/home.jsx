@@ -45,8 +45,10 @@ export default function Home(props) {
 
             <ul
               className={
-                "flex justify-around items-center w-[40%] max-md-957:bg-red-700 " +
-                (hamburger ? "max-md-[600px]:block" : "max-md-[600px]:hidden")
+                "flex justify-around items-center w-[40%] max-md-957:bg-[#000000fa] " +
+                (hamburger
+                  ? "max-md-[600px]:flex max-md-[600px]:w-full max-md-[600px]:absolute max-md-[600px]:right-0 max-md-[600px]:left-0 max-md-[600px]:top-[60%] max-md-[600px]:gap-4 max-md-[600px]:h-[60vh] max-md-[600px]:flex-col "
+                  : "max-md-[600px]:hidden")
               }
             >
               <li>
@@ -122,7 +124,7 @@ export default function Home(props) {
               </li>
             </ul>
             <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
-              <p onclick={() => ToggleBurger(SetHamburger)}>
+              <p onClick={() => ToggleBurger(SetHamburger)}>
                 <FontAwesomeIcon icon={faHamburger} size="xl" />
               </p>
             </div>
