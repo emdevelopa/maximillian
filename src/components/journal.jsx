@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Carousel from "./Carousel";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Journal(props) {
   return (
@@ -59,8 +61,8 @@ export default function Journal(props) {
               want to make the most out of it.
             </p>
           </div> */}
-          <a className="text-orange-500 underline" href="#">
-            View Facts
+          <a className="hover:text-orange-500 underline" href="#">
+            View Facts <FontAwesomeIcon icon={faArrowRight}/>
           </a>
         </div>
 
