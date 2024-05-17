@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import ToggleBurger from "./Hamburger";
 import About from "./about";
-import { faHamburger, re } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger, faX, re } from "@fortawesome/free-solid-svg-icons";
 import Journal from "./journal";
 import WhatWeOffer from "./offer";
 import TestimonialCarousel from "./testimonial";
@@ -47,7 +47,7 @@ export default function Home(props) {
               className={
                 "flex justify-around items-center w-[40%] max-md-957:bg-[#000000fa] " +
                 (hamburger
-                  ? "max-md-[600px]:flex max-md-[600px]:w-full max-md-[600px]:absolute max-md-[600px]:right-0 max-md-[600px]:left-0 max-md-[600px]:top-[60%] max-md-[600px]:gap-4 max-md-[600px]:h-[60vh] max-md-[600px]:flex-col "
+                  ? "max-md-[600px]:flex max-md-[600px]:w-full max-md-[600px]:absolute max-md-[600px]:right-0 max-md-[600px]:left-0 max-md-[600px]:top-[0%]  max-md-[600px]:gap-4 max-md-[600px]:h-[90vh] max-md-[600px]:flex-col "
                   : "max-md-[600px]:hidden")
               }
             >
@@ -125,7 +125,11 @@ export default function Home(props) {
             </ul>
             <div className="absolute top-[40%] right-5 hidden max-md-[600px]:block">
               <p onClick={() => ToggleBurger(SetHamburger)}>
-                <FontAwesomeIcon icon={faHamburger} size="xl" />
+                {hamburger ? (
+                  <FontAwesomeIcon icon={faX} size="xl" />
+                ) : (
+                  <FontAwesomeIcon icon={faHamburger} size="xl" />
+                )}
               </p>
             </div>
           </nav>
