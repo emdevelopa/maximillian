@@ -109,7 +109,7 @@ export default function About(props) {
                 {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a> */}
-                <a href="#">
+                <a href="https://x.com/tomisinmccoyx?s=11">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
                 {/* <a href="#">
@@ -134,13 +134,14 @@ export default function About(props) {
                 {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a> */}
-                <a href="#">
+                <a href="https://x.com/Emwrld999">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
                 {/* <a href="#">
+                
                   <FontAwesomeIcon icon={faYoutube} />
                 </a> */}
-                <a href="#">
+                <a href="https://www.instagram.com/solodev999/">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
