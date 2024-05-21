@@ -14,7 +14,7 @@ export default function Footer(props) {
       <section className="flex flex-col justify-around items-center">
         <img src={props.logo} alt="logo" className="w-[9em] " />
         <div className="mb-6 flex gap-8">
-          <a href="#">
+          <a href="https://www.facebook.com/maximillian.solutions.limited?mibextid=ZbWKwL">
             <FontAwesomeIcon
               icon={faFacebook}
               size="xl"

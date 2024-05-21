@@ -115,7 +115,7 @@ export default function About(props) {
                 {/* <a href="#">
                   <FontAwesomeIcon icon={faYoutube} />
                 </a> */}
-                <a href="#">
+                <a href="https://www.instagram.com/tomisinmccoyx?igsh=eG5jYmN6NXl6dHVv&utm_source=qr">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
