@@ -6,6 +6,7 @@ import {
   faYoutube,
   // Add more social media icons as needed
 } from "@fortawesome/free-brands-svg-icons";
+import ceo from "../../src/images/CEO.jpg";
 
 export default function About(props) {
   return (
@@ -84,20 +85,20 @@ export default function About(props) {
                 {/* <a href="#">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a> */}
-                <a href="#">
+                <a href="https://x.com/IgeShammar">
                   <FontAwesomeIcon icon={faXTwitter} />
                 </a>
                 {/* <a href="#">
                   <FontAwesomeIcon icon={faYoutube} />
                 </a> */}
-                <a href="#">
+                <a href="https://www.instagram.com/numero.uno.futurist?igsh=enZqZG9nd2tlNXJi&utm_source=qr">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
             </div>
             <div className="relative w-[20em] bg-white text-black rounded-[2em]">
               <img
-                src={props.cto}
+                src={ceo}
                 alt="CEO"
                 className="rounded-tl-[2em] rounded-tr-[2em]"
               />
