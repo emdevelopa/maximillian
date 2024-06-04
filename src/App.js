@@ -13,7 +13,6 @@ import MarketPlace from "./market_place/page";
 class App extends Component {
   render() {
     return (
-      
       <BrowserRouter>
         <Routes>
           <Route
@@ -28,13 +27,7 @@ class App extends Component {
               />
             }
           />
-          <Route
-            path="/marketplace"
-            element={
-              <MarketPlace
-              />
-            }
-          />
+          <Route path="/marketplace" element={<MarketPlace logo={logo} />} />
         </Routes>
       </BrowserRouter>
     );
