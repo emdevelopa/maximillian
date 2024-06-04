@@ -60,7 +60,7 @@ export default function Home(props) {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-400 hover:underline">
+                <a href="/marketplace" className="hover:text-orange-400 hover:underline">
                   MARKETPLACE
                 </a>
               </li>

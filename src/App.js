@@ -7,10 +7,13 @@ import cto from "../src/images/CTO.jpg";
 import ceo from "../src/images/CEO.jpg";
 import founder from "../src/images/founder.jpg";
 import journalImage from "../src/images/walls.jpeg";
+import MarketPlace from "./market_place/page";
+
 
 class App extends Component {
   render() {
     return (
+      
       <BrowserRouter>
         <Routes>
           <Route
@@ -22,6 +25,13 @@ class App extends Component {
                 ceo={ceo}
                 founder={founder}
                 journalImage={journalImage}
+              />
+            }
+          />
+          <Route
+            path="/marketplace"
+            element={
+              <MarketPlace
               />
             }
           />
