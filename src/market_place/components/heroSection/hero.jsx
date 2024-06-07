@@ -12,7 +12,7 @@ const HeroSection = () => {
           at a very affordable rate. Reach out today
         </p>
         <div className="flex gap-[4em] max-md-[400px]:gap-[1em]">
-          <button className="py-[1em] px-10 rounded-xl font-bold bg-[#ff2727]">
+          <button className="py-[1em] px-10 rounded-xl font-bold bg-[#ff2727] max-md-[400px]:px-6">
             EXPLORE
           </button>
           <button className="py-[1em] px-10 rounded-xl font-bold bg-[#ff2727]">
