@@ -13,7 +13,7 @@ const Navbar = (props) => {
   return (
     <nav className="flex justify-between items-center text-zinc-50">
       <div>
-        <img src={props.logo} alt="logo" className="w-[6em] " />
+        <img src={props.logo} alt="logo" className="w-[5em] " />
       </div>
       {/* Bars Icon */}
       <FontAwesomeIcon
