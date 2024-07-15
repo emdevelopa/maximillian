@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/navbar";
 import HeroSection from "./components/heroSection/hero";
 import Catalogue from "./components/catalogue/catalogue";
 import WWO from "./components/whatWeOffer/wwo";
+import PC from "./components/petsCollection/petsColl";
 
 
 const MarketPlace = (props) => {
@@ -12,7 +13,8 @@ const MarketPlace = (props) => {
       <Navbar logo={props.logo} />
       <HeroSection />
       <Catalogue />
-      <WWO/>
+      <WWO />
+      <PC/>
     </section>
   );
 };

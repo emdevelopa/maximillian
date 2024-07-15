@@ -1,8 +1,8 @@
 import group30 from "../../assets/Group-30.png";
 export default function WWO() {
   return (
-    <section className="mt-[4em]">
-      <h1 className="font-bold text-[30px] mb-8 text-white text-center">
+    <section className="mt-[4em] mb-[10em]">
+      <h1 className="font-bold text-[30px] mb-[2em] text-white text-center">
         What We Offer{" "}
       </h1>
       <div className="flex justify-around items-center">
