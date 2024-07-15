@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="flex gap-8 text-white items-center max-md-[400px]:flex-col ">
       <div className="flex flex-col w-1/2 max-md-[400px]:w-full max-md-[400px]:mt-[2em] gap-[3em] mt-[12em] mb-8 ">
         <h1 className="font-bold text-[44px] max-md-[400px]:text-[28px]">
-          GET A BEAUTIFUL PET <br /> FOR YOURSELF TODAY. AND WATCH TEEN WOLF
+          GET A BEAUTIFUL PET <br /> FOR YOURSELF TODAY. 
         </h1>
         <p>
           Get a pet from us today and discover a new companion. <br /> We sell
