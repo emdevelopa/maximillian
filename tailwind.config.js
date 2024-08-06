@@ -6,6 +6,11 @@ module.exports = {
       screens: {
         "md-957": "957px",
       },
+      colors:{
+        btnleft: '#c21500',
+        btnright: '#ffc500',
+      },
+      
     },
   },
   plugins: [],

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import DogsCollection from "./DogsCollection";
 
 export default function PC() {
   const [activeButton, setActiveButton] = useState(0);
@@ -23,6 +24,7 @@ export default function PC() {
           </button>
         ))}
       </div>
+      <DogsCollection />
     </section>
   );
 }
