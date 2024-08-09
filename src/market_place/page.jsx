@@ -5,6 +5,11 @@ import HeroSection from "./components/heroSection/hero";
 import Catalogue from "./components/catalogue/catalogue";
 import WWO from "./components/whatWeOffer/wwo";
 import PC from "./components/petsCollection/petsColl";
+import Works from "./components/works/Works";
+import Footer from "./components/footer/Footer";
+import Contact from "./components/contact/Contact";
+import Testimonial from "./components/testimonials/Testimonial";
+import GetInTouch from "./components/getInTouch/GetInTouch";
 
 
 const MarketPlace = (props) => {
@@ -15,6 +20,11 @@ const MarketPlace = (props) => {
       <Catalogue />
       <WWO />
       <PC/>
+      <Works />
+      <Testimonial />
+      <GetInTouch />
+      <Contact />
+      <Footer logo={props.logo}/>
     </section>
   );
 };
