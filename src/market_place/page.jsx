@@ -10,6 +10,7 @@ import Footer from "./components/footer/Footer";
 import Contact from "./components/contact/Contact";
 import Testimonial from "./components/testimonials/Testimonial";
 import GetInTouch from "./components/getInTouch/GetInTouch";
+import FAQ from "./components/faq/FAQ";
 
 
 const MarketPlace = (props) => {
@@ -23,7 +24,8 @@ const MarketPlace = (props) => {
       <Works />
       <Testimonial />
       <GetInTouch />
-      <Contact />
+      {/* <Contact /> */}
+      <FAQ />
       <Footer logo={props.logo}/>
     </section>
   );

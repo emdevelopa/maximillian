@@ -12,5 +12,11 @@ export const Testimonies = [
         name:'Sauban Yusuf',
         image:image1,
         testimony:'Maximillian is reliable and trusted. They deal in healthy pets.'
+    },
+    {
+        id:3,
+        name:'Sauban Yusuf',
+        image:image1,
+        testimony:'Maximillian is reliable and trusted. They deal in healthy pets.'
     }
 ]
