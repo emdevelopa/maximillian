@@ -1,3 +1,5 @@
+// import 
+
 export default function Catalogue() {
   return (
     <section className="mt-[4em] mb-[10em]">
@@ -6,10 +8,18 @@ export default function Catalogue() {
       </h1>
       <div>
         <div className="flex justify-between gap-4">
-          <div className="w-[18em] h-[14em] bg-orange-400"></div>
-          <div className="w-[18em] h-[14em] bg-orange-400"></div>
-          <div className="w-[18em] h-[14em] bg-orange-400"></div>
-          <div className="w-[18em] h-[14em] bg-orange-400"></div>
+          <div className="w-[18em] h-[14em] bg-orange-400">
+            {/* <img src='' alt="" /> */}
+          </div>
+          <div className="w-[18em] h-[14em] bg-orange-400">
+            {/* <img src='' alt="" /> */}
+          </div>
+          <div className="w-[18em] h-[14em] bg-orange-400">
+            {/* <img src='' alt="" /> */}
+          </div>
+          <div className="w-[18em] h-[14em] bg-orange-400">
+            {/* <img src='' alt="" /> */}
+          </div>
         </div>
       </div>
     </section>
